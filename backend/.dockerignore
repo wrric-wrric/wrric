@@ -1,0 +1,15 @@
+pycache
+*.pyc
+.pyo
+.pyd
+.Python
+venv/
+.env
+.git
+.gitignore
+logs/
+data/scraper.db
+data/.txt
+Dockerfile
+docker-compose.yml
+*.md

@@ -1,0 +1,33 @@
+New-Item -ItemType Directory -Path .\logs -Force
+New-Item -ItemType File -Path .\logs\error.log -Force
+New-Item -ItemType File -Path .\logs\access.log -Force
+New-Item -ItemType File -Path .\logs\app.log -Force
+icacls .\logs /grant "Everyone:(OI)(CI)F"
+icacls .\logs\error.log /grant "Everyone:F"
+icacls .\logs\access.log /grant "Everyone:F"
+icacls .\logs\app.log /grant "Everyone:F"
+icacls entrypoint.sh /grant "Everyone:F"
+
+
+
+Building from scratch, it rebuilds only when the image is not present or has changed
+
+$env:COMPOSE_DOCKER_CLI_BUILD=1
+$env:DOCKER_BUILDKIT=1
+docker-compose up --build 
+
+
+
+Updating the image
+Modifying the Dockerfile or app source
+Wanting to prebuild without starting containers
+
+$env:COMPOSE_DOCKER_CLI_BUILD=1
+$env:DOCKER_BUILDKIT=1
+docker-compose build --progress=plain
+
+
+Starts the container in detached mode (-d), running entrypoint.sh to fix
+permissions and gunicorn to serve the FastAPI app on port 8000.
+
+docker-compose up -d

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unlokinno Intelligence Platform</title>
+    <meta name="description"
+        content="AI-powered climate tech research intelligence platform connecting labs, startups, and funders.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <!-- ===== LOGIN PAGE ===== -->
+    <div id="login-page">
+        <div class="auth-card">
+            <div class="logo">UNLOKINNO</div>
+            <p class="auth-subtitle">Intelligence Platform — Sign In</p>
+            <div id="login-error" class="error-msg"></div>
+            <form id="login-form">
+                <div class="input-group">
+                    <label for="login-email">Email / Username</label>
+                    <input type="text" id="login-email" placeholder="admin@example.com" value="admin@example.com"
+                        required>
+                </div>
+                <div class="input-group">
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" placeholder="••••••••" value="9858" required>
+                </div>
+                <button type="submit" class="btn btn-primary" id="login-btn">Sign In</button>
+            </form>
+            <p class="auth-link">New to the platform? <a href="#" id="goto-register">Create an account</a></p>
+        </div>
+    </div>
+
+    <!-- ===== REGISTER PAGE ===== -->
+    <div id="register-page">
+        <div class="auth-card" style="max-width:500px;">
+            <div class="logo">UNLOKINNO</div>
+            <p class="auth-subtitle">Create Your Account</p>
+            <div id="register-error" class="error-msg"></div>
+            <div id="register-success" class="success-msg"></div>
+            <form id="register-form">
+                <div class="input-group">
+                    <label>Your Role</label>
+                    <select id="reg-role">
+                        <option value="lab">🔬 Research Lab Manager</option>
+                        <option value="entrepreneur">💡 Entrepreneur / Startup</option>
+                        <option value="funder">💰 Funder / Investor</option>
+                        <option value="academic">🎓 Academic / Researcher</option>
+                    </select>
+                </div>
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+                    <div class="input-group">
+                        <label>First Name</label>
+                        <input type="text" id="reg-fname" placeholder="Alex" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Last Name</label>
+                        <input type="text" id="reg-lname" placeholder="Mwangi" required>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label>Email Address</label>
+                    <input type="email" id="reg-email" placeholder="alex@example.com" required>
+                </div>
+                <div class="input-group">
+                    <label>Username</label>
+                    <input type="text" id="reg-username" placeholder="alexmwangi" required>
+                </div>
+                <div class="input-group">
+                    <label>Password</label>
+                    <input type="password" id="reg-password" placeholder="At least 8 characters" required>
+                </div>
+                <div class="input-group">
+                    <label>Organization (optional)</label>
+                    <input type="text" id="reg-org" placeholder="University / Company name">
+                </div>
+                <button type="submit" class="btn btn-primary" id="register-btn">Create Account</button>
+            </form>
+            <p class="auth-link">Already have an account? <a href="#" id="goto-login">Sign in</a></p>
+        </div>
+    </div>
+
+    <!-- ===== MAIN APP ===== -->
+    <div id="app">
+        <header>
+            <div class="logo" style="font-size:20px;margin:0;cursor:pointer;" id="header-logo">UNLOKINNO</div>
+            <nav id="main-nav">
+                <div class="nav-item active" data-view="overview">Overview</div>
+                <div class="nav-item" data-view="entities">Labs & Entities</div>
+                <div class="nav-item" data-view="matches">AI Matches</div>
+                <div class="nav-item" data-view="messages">Messages</div>
+            </nav>
+            <div class="header-right">
+                <div id="user-info">Loading...</div>
+                <button id="logout-btn">Sign Out</button>
+            </div>
+        </header>
+
+        <main>
+            <!-- ===== OVERVIEW VIEW ===== -->
+            <div id="view-overview" class="view active">
+                <div class="hero">
+                    <h1>Welcome back, <span id="hero-name" style="color:var(--primary)">Researcher</span></h1>
+                    <p>Explore the global climate tech ecosystem powered by AI intelligence.</p>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value" id="stat-entities">--</div>
+                        <div class="stat-label">Research Entities</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="stat-matches">--</div>
+                        <div class="stat-label">AI Matches</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="stat-proposals">--</div>
+                        <div class="stat-label">Active Proposals</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="stat-messages">--</div>
+                        <div class="stat-label">Messages</div>
+                    </div>
+                </div>
+
+                <div class="section-header">
+                    <h2>Featured Labs & Startups</h2>
+                    <button class="btn btn-secondary btn-sm" onclick="switchView('entities')">View All →</button>
+                </div>
+                <div id="overview-entities" class="entities-grid">
+                    <div class="loading-wrap">
+                        <div class="spinner"></div>
+                        <p>Loading ecosystem...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== ENTITIES VIEW ===== -->
+            <div id="view-entities" class="view">
+                <div class="section-header">
+                    <h2>Labs & Research Entities</h2>
+                    <div style="display:flex;gap:12px;align-items:center;">
+                        <div class="search-wrap">
+                            <input type="text" id="entities-search" placeholder="Search labs, universities...">
+                        </div>
+                        <button class="btn btn-primary btn-sm" id="add-entity-btn">+ Add Lab</button>
+                    </div>
+                </div>
+                <div class="tab-bar">
+                    <button class="tab-btn active" data-tab="all-entities">All Labs</button>
+                    <button class="tab-btn" data-tab="my-entities">My Submissions</button>
+                </div>
+                <div id="entities-loading" class="loading-wrap" style="display:none;">
+                    <div class="spinner"></div>
+                    <p>Scanning ecosystem...</p>
+                </div>
+                <div id="all-entities-grid" class="entities-grid"></div>
+                <div id="my-entities-grid" class="entities-grid" style="display:none;"></div>
+            </div>
+
+            <!-- ===== MATCHES VIEW ===== -->
+            <div id="view-matches" class="view">
+                <div class="section-header">
+                    <h2>AI Match Scores</h2>
+                    <p style="color:var(--text-dim);font-size:14px;">Funder–Lab compatibility calculated by semantic AI
+                    </p>
+                </div>
+                <div id="no-profile-banner" class="no-profile-banner">
+                    ⚡ Create a Funder profile first to see AI match scores. Go to <strong>Register</strong> and choose
+                    the Funder role.
+                </div>
+                <div id="matches-loading" class="loading-wrap">
+                    <div class="spinner"></div>
+                    <p>Running AI analysis...</p>
+                </div>
+                <div id="matches-list" class="matches-list" style="display:none;"></div>
+                <div id="matches-empty" class="empty-state" style="display:none;">
+                    <h3>No Matches Yet</h3>
+                    <p>The matchmaking engine runs periodically. Check back soon or ensure you have a funder profile.
+                    </p>
+                </div>
+            </div>
+
+            <!-- ===== MESSAGES VIEW ===== -->
+            <div id="view-messages" class="view">
+                <div class="section-header">
+                    <h2>Messages</h2>
+                    <p style="color:var(--text-dim);font-size:14px;">Direct secure messaging with ecosystem members</p>
+                </div>
+                <div id="no-profile-msg-banner" class="no-profile-banner" style="display:flex;">
+                    ⚡ You need a Profile to send messages. Profiles are created on registration.
+                </div>
+                <div class="conversations-layout" id="conv-layout">
+                    <div class="conv-list" id="conv-list">
+                        <div class="loading-wrap">
+                            <div class="spinner"></div>
+                        </div>
+                    </div>
+                    <div class="conv-placeholder" id="conv-placeholder">
+                        <div style="text-align:center;">
+                            <div style="font-size:40px;margin-bottom:12px;">💬</div>
+                            <p>Select a conversation to start messaging</p>
+                        </div>
+                    </div>
+                    <div class="chat-area" id="chat-area" style="display:none;">
+                        <div style="padding:16px 20px;border-bottom:1px solid var(--border);font-weight:600;"
+                            id="chat-title">Chat</div>
+                        <div class="chat-messages" id="chat-messages"></div>
+                        <div class="chat-input-row">
+                            <input type="text" id="chat-input" placeholder="Type a message...">
+                            <button class="btn btn-primary btn-sm" id="chat-send-btn">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- ===== ADD ENTITY MODAL ===== -->
+    <div class="modal-overlay" id="add-entity-modal">
+        <div class="modal">
+            <button class="modal-close" id="close-entity-modal">×</button>
+            <h2>Add Research Lab / Entity</h2>
+            <p class="modal-subtitle">Submit a new climate tech lab or startup to the ecosystem</p>
+            <div id="entity-form-error" class="error-msg"></div>
+            <form id="entity-form">
+                <div class="input-group">
+                    <label>University / Institution</label>
+                    <input type="text" id="ef-university" placeholder="e.g. University of Nairobi" required>
+                </div>
+                <div class="input-group">
+                    <label>Research Abstract</label>
+                    <textarea id="ef-abstract" placeholder="Describe the research focus and impact..."
+                        required></textarea>
+                </div>
+                <div class="input-group">
+                    <label>Climate Focus Area</label>
+                    <input type="text" id="ef-focus" placeholder="e.g. Carbon Capture, Solar Energy">
+                </div>
+                <div class="input-group">
+                    <label>Website URL</label>
+                    <input type="url" id="ef-url" placeholder="https://lab.university.edu">
+                </div>
+                <div class="input-group">
+                    <label>Entity Type</label>
+                    <select id="ef-type">
+                        <option value="lab">Research Lab</option>
+                        <option value="startup">Startup</option>
+                        <option value="organization">Organization</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary" id="entity-submit-btn">Submit Entity</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- ===== ENTITY DETAIL MODAL ===== -->
+    <div class="modal-overlay" id="entity-detail-modal">
+        <div class="modal">
+            <button class="modal-close" id="close-detail-modal">×</button>
+            <div id="entity-detail-content"></div>
+        </div>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        BUILDKIT_PROGRESS: plain
+
+    image: unlokinno-intelligence-backend:latest
+
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./chrome_user_data:/app/chrome_user_data
+
+    environment:
+      - PYTHONPATH=/app
+      - LOG_LEVEL=WARNING
+    env_file:
+      - .env
+
+    # Docker container log rotation (prevents stdout/stderr from filling disk)
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+    # 4) Entrypoint & command
+    entrypoint: ["/app/entrypoint.sh"]
+    command: ["gunicorn", "-c", "gunicorn_config.py", "main:app"]
+
+    # 5) Restart policy
+    restart: unless-stopped

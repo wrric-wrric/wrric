@@ -1,0 +1,8 @@
+.env
+data/scraper.db
+data/crawler.db
+logs/*
+backup/*
+__pycache__/
+*.pyc
+chrome_user_data/

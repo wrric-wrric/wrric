@@ -1,0 +1,2785 @@
+[
+  {
+    "id": 1,
+    "session_id": "30b23204-34cb-4a18-aa9e-e91e4e53bbe2",
+    "url": "https://asic.aqrc.ucdavis.edu/ghana-program-presentations",
+    "university": "University of Cape Coast",
+    "location": {
+      "county": "",
+      "city": "Central Region",
+      "state": "",
+      "postcode": "",
+      "country": "",
+      "display_name": "University of Cape Coast, Cape Coast - Twifo Praso Road, Kakumdo, Anto Essuekyir, Cape Coast Metropolitan District, Central Region, Ghana"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-cape-coast/rankings/"
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "name": "Prof. Kofi Amegah",
+      "email": "aamegah@ucc.edu.gh"
+    },
+    "scopes": [
+      "Air Quality",
+      "Climate Change",
+      "Public Health",
+      "Environmental Science",
+      "Data Science"
+    ],
+    "research_abstract": "This conference focuses on air quality monitoring, particularly in Africa.  Keynotes address the importance of data in addressing air pollution and climate change, highlighting the connection between air quality, health, and economics.  The presentations cover various aspects, including community-based participation in using low-cost sensors (LCS) for air quality monitoring.  Specific research presented includes a study on participatory air quality network siting (PAQNS) in African cities, aiming to improve data accuracy and community engagement. Another study assesses personal exposure to particulate matter among furniture manufacturers in Kigali, Rwanda, using low-cost sensors to measure PM10 and PM2.5 concentrations.  The findings reveal that concentrations exceed WHO guidelines, emphasizing the need for strategies to minimize exposure and promote safer working environments.  Overall, the research highlights the importance of accessible, reliable data and community involvement in addressing air pollution challenges in urban areas.",
+    "lab_equipment": {},
+    "timestamp": "2025-05-23T13:48:26.331832",
+    "last_updated": "2024-01-18T02:21:31Z"
+  },
+  {
+    "id": 2,
+    "session_id": "30b23204-34cb-4a18-aa9e-e91e4e53bbe2",
+    "url": "https://courses.edx.org/asset-v1:MITx+11.270x+2T2023+type@asset+block/Tracking_Urban_Health_Policies.pdf",
+    "university": "University of Ghana",
+    "location": {
+      "city": "Accra",
+      "country": "Ghana"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-ghana/rankings/"
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "email": "admissions@ug.edu.gh"
+    },
+    "scopes": [
+      "Urban Health",
+      "Air Pollution",
+      "Climate Change"
+    ],
+    "research_abstract": "This report proposes a conceptual framework for tracking urban health policies, with a special focus on the impacts of air quality and energy access on human health and well-being in African countries, giving some examples from the pilot project in Accra.",
+    "lab_equipment": {},
+    "timestamp": "2025-05-23T13:49:12.816389",
+    "last_updated": ""
+  },
+  {
+    "id": 3,
+    "session_id": "30b23204-34cb-4a18-aa9e-e91e4e53bbe2",
+    "url": "https://iopscience.iop.org/article/10.1088/1748-9326/8/4/044025/pdf",
+    "university": "IOP Publishing",
+    "location": {},
+    "website": "https://ioppublishing.org",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "email": "ie11CustomProperties@4.1.0"
+    },
+    "scopes": [],
+    "research_abstract": "",
+    "lab_equipment": {},
+    "timestamp": "2025-05-23T13:50:05.732939",
+    "last_updated": ""
+  },
+  {
+    "id": 4,
+    "session_id": "b0aa8b20-01cc-4ffe-bfaf-7b0f6d289908",
+    "url": "https://afrobarometer.org/wp-content/uploads/migrated/files/publications/Policy%20papers/ab_r7_policypaperno60_experience_and_awareness_of_climate_change_in_africa.pdf",
+    "university": "University of Ghana",
+    "location": {
+      "city": "Accra",
+      "country": "Ghana"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-ghana/rankings/"
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "email": "admissions@ug.edu.gh"
+    },
+    "scopes": [],
+    "research_abstract": "Climate change is the defining development challenge of our time, and Africa is the continent most vulnerable to its consequences. Farmers in Uganda waiting endlessly for rain, cyclone survivors in Mozambique and Zimbabwe digging out of the mud and burying their dead – these images bring home what changing climate and increasingly extreme weather conditions may mean for everyday Africans.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-11T23:18:29.521681",
+    "last_updated": ""
+  },
+  {
+    "id": 5,
+    "session_id": "b0aa8b20-01cc-4ffe-bfaf-7b0f6d289908",
+    "url": "https://climatemobility.org/solutions-lab/",
+    "university": "University of Ghana",
+    "location": {
+      "city": "Accra",
+      "country": "Ghana"
+    },
+    "website": "https://ug.edu.gh",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-ghana/rankings/"
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "email": "admissions@ug.edu.gh"
+    },
+    "scopes": [],
+    "research_abstract": "",
+    "lab_equipment": {},
+    "timestamp": "2025-06-11T23:19:15.060867",
+    "last_updated": ""
+  },
+  {
+    "id": 6,
+    "session_id": "b0aa8b20-01cc-4ffe-bfaf-7b0f6d289908",
+    "url": "https://cs4rra.wascal.org/img/CS4RRA_White-Paper_final_01-August-2024.pdf",
+    "university": "WASCAL",
+    "location": {
+      "city": "Kumasi",
+      "country": "Ghana"
+    },
+    "website": "https://cs4rra.wascal.org/",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "JPI Climate, AU-EU STI Partnership",
+    "point_of_contact": {
+      "email": "info@wascal.org"
+    },
+    "scopes": [
+      "Climate Services",
+      "Risk Reduction",
+      "Agriculture",
+      "Sustainable Landscapes"
+    ],
+    "research_abstract": "The Climate Services for Risk Reduction in Africa (CS4RRA) initiative aims to enhance climate resilience through Knowledge, Innovation, and Capacity Building (KIC). The initiative is built on the achievements of previous EU and AU programmes and involves West African regional and national institutions. Four hybrid webinars were held to identify gaps and critical issues in climate services for risk reduction in Africa.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-11T23:20:03.803966",
+    "last_updated": ""
+  },
+  {
+    "id": 7,
+    "session_id": "aa932e41-4257-490e-8477-b15e79fab7b8",
+    "url": "https://financeincommon.org/fics-innovation-lab",
+    "university": "University of Ghana",
+    "location": {
+      "city": "Accra",
+      "country": "Ghana"
+    },
+    "website": "https://ug.edu.gh",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-ghana/rankings/"
+    },
+    "department": {
+      "name": "FiCS Lab",
+      "focus": "Climate Finance"
+    },
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "Climate Policy Initiative, Finance in Common, Inter-American Development Bank",
+    "point_of_contact": {
+      "name": "",
+      "email": "FiCSLab@cpiglobal.org",
+      "contact": ""
+    },
+    "scopes": [
+      "Climate Finance",
+      "Innovative Financial Instruments"
+    ],
+    "research_abstract": "The FiCS Lab Incubator focuses on innovative financial instruments from PDBs that demonstrate innovation, actionability, and catalytic potential. The Incubator supports the development of innovative financial solutions tailored for PDBs and aimed at overcoming challenges in climate finance.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T00:58:04.783123",
+    "last_updated": "2025-06-11T09:07:11Z"
+  },
+  {
+    "id": 8,
+    "session_id": "aa932e41-4257-490e-8477-b15e79fab7b8",
+    "url": "https://hrfworldwide.org/north-america/content/article/academic-city-university-college-launches-groundbreaking-laboratories-for-climate-innovation",
+    "university": "Academic City University College",
+    "location": {
+      "city": "Accra",
+      "country": "Ghana"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/academic-city-university-college/"
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "United States State Department, Arm Limited",
+    "point_of_contact": {
+      "email": "info@acity.edu.gh"
+    },
+    "scopes": [
+      "Climate Innovation",
+      "Sustainability"
+    ],
+    "research_abstract": "The launch of the Acity Sustainability Laboratory and the Acity Ecosystem Lab marks a transformative moment for both Academic City University College and the broader climate entrepreneurial ecosystem in Ghana. Through the collaborative efforts of the university, the United States State Department, and Arm Limited, these laboratories are poised to serve as incubators for innovation, providing invaluable support to aspiring entrepreneurs committed to creating sustainable solutions.",
+    "lab_equipment": {
+      "overview": "State-of-the-art laboratories",
+      "list": []
+    },
+    "timestamp": "2025-06-12T00:58:37.664902",
+    "last_updated": ""
+  },
+  {
+    "id": 9,
+    "session_id": "aa932e41-4257-490e-8477-b15e79fab7b8",
+    "url": "https://www.araa.org/en/actualite/west-african-initiative-climate-smart-agriculture-selected-global-innovation-lab-climate",
+    "university": "African Regional Agricultural and Research Authority",
+    "location": {},
+    "website": "https://www.araa.org/en",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {},
+    "scopes": [
+      "Climate Smart Agriculture",
+      "Agriculture",
+      "Climate Change"
+    ],
+    "research_abstract": "",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T00:59:36.395905",
+    "last_updated": "2023-05-08T12:00:00Z"
+  },
+  {
+    "id": 10,
+    "session_id": "aa932e41-4257-490e-8477-b15e79fab7b8",
+    "url": "https://www.climatefinancelab.org/",
+    "university": "University of Ghana",
+    "location": {
+      "city": "Accra",
+      "country": "Ghana"
+    },
+    "website": "https://ug.edu.gh",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-ghana/rankings/"
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "email": "admissions@ug.edu.gh"
+    },
+    "scopes": [],
+    "research_abstract": "",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T01:00:10.164350",
+    "last_updated": ""
+  },
+  {
+    "id": 11,
+    "session_id": "1151125b-a1ee-4b3d-a27c-a473f53a0833",
+    "url": "https://cdkn.org/sites/default/files/files/Uganda_CC-economics_HEALTH_case-study2.pdf",
+    "university": "Makerere University",
+    "location": {
+      "county": "",
+      "city": "Central Region",
+      "state": "",
+      "postcode": "",
+      "country": "",
+      "display_name": "Makerere University, Makerere Hill Road, Wandegeya, Central, Kampala Capital City, Kampala, Central Region, Uganda"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/makerere-university/rankings/"
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "University of Wolverhampton, University of Pretoria, Metroeconomica, Le Groupe-conseil Baastel sprl, Centre for International Development and Training (CIDT)",
+    "point_of_contact": {
+      "name": "",
+      "email": "olivier.beucher@baastel.com",
+      "contact": ""
+    },
+    "scopes": [
+      "Climate Change",
+      "Malaria",
+      "Economic Impacts",
+      "Adaptation Policy"
+    ],
+    "research_abstract": "This research assesses the economic impacts of climate change on malaria prevalence in Uganda, specifically focusing on the districts of Tororo and Kabale.  The study employs a mixed-methods approach, combining analysis of climate data with epidemiological and economic modeling.  Key aspects include the quantification of malaria burden under various climate scenarios, the economic costs associated with malaria, and the evaluation of potential adaptation strategies.  The research identifies key barriers and enabling factors for effective adaptation and provides policy recommendations for mitigating the negative impacts of climate change on malaria. The study highlights the complex interplay between climate change, malaria transmission, and economic development, offering valuable insights for policymakers and researchers working to address these interconnected challenges in Uganda and other similar contexts.  The findings are based on a collaboration between several institutions, including Makerere University, and utilize data from various sources, including the Uganda Malaria Surveillance Project (UMSP).",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T02:18:34.345618",
+    "last_updated": ""
+  },
+  {
+    "id": 12,
+    "session_id": "1151125b-a1ee-4b3d-a27c-a473f53a0833",
+    "url": "https://commons.clarku.edu/cgi/viewcontent.cgi?article=1264&context=idce_masters_papers",
+    "university": "Clark University",
+    "location": {
+      "city": "Worcester",
+      "country": "MA"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/clark-university/"
+    },
+    "department": {
+      "name": "International Development, Community & Environment (IDCE)",
+      "focus": "Environmental Science & Policy"
+    },
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "name": "Morgan Ruelle",
+      "email": "larobinson@clarku.edu",
+      "contact": ""
+    },
+    "scopes": [
+      "Environmental Studies",
+      "International and Community Nutrition",
+      "Sustainability",
+      "Climate Change",
+      "Food Security"
+    ],
+    "research_abstract": "As one of the most densely populated regions on the continent of Africa, the Albertine Rift (consisting of parts of Rwanda, Uganda, and the eastern DRC) faces ongoing problems providing enough food for its people through crop production, livestock husbandry, and other forms of food production. Even more troubling for the future is that anthropogenic climate change is expected to significantly exacerbate food insecurity. This paper addresses one central question: how will climate change impact food security in the Albertine Rift? Based on an analysis of available data, this paper finds that policymakers should listen closely to local farmers and indigenous communities, who have a great deal of knowledge about their land, to support their successful adaptation to climate change. In addition, national policies that promote diversification of crops and farming techniques, rather than restricting agricultural activities, would enhance food security in the face of climate change.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T02:20:04.636053",
+    "last_updated": ""
+  },
+  {
+    "id": 13,
+    "session_id": "1151125b-a1ee-4b3d-a27c-a473f53a0833",
+    "url": "https://preparecenter.org/wp-content/uploads/2022/12/Uganda-Heat-Perceptions-Research-by-H.Sseviiri-2022.pdf",
+    "university": "Makerere University",
+    "location": {
+      "city": "Kampala",
+      "country": "Uganda"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/makerere-university/rankings/"
+    },
+    "department": {
+      "name": "Department of Geography, Geoinformatics and Climatic Sciences"
+    },
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "name": "Hakimu Sseviiri",
+      "email": "hsseviiri@gmail.com",
+      "contact": ""
+    },
+    "scopes": [
+      "Climate Change Research and Innovations",
+      "Heat Health Information Network"
+    ],
+    "research_abstract": "This study examines heat risk perception and communication strategies for adaptation within low-income communities in Kampala City, Uganda. It explores the knowledge, exposure, and likelihood of heat waves in Kampala, and the sensitivity, effects, and environmental impacts of heat waves on low-income communities. The study also identifies response strategies for coping with heat wave events and information and communication for heat wave adaptation strategies in low-income communities.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T02:20:36.882604",
+    "last_updated": ""
+  },
+  {
+    "id": 14,
+    "session_id": "2ecafd20-c9c2-4286-a9aa-37fe499ac818",
+    "url": "https://asfirj.org/useruploads/manuscripts/1746783636_Lara%20Ferrero%20Gomez%20et%20al%20-%20ASFIRJ%20-2025-00101%20-%20FINAL.pdf",
+    "university": "Universidade Jean Piaget",
+    "location": {
+      "city": "Praia",
+      "country": "Cabo Verde"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {
+      "name": "Tropical Disease Research Group (GIDTPiaget), Life and Environmental Sciences Unit",
+      "focus": "Microbiology"
+    },
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "name": "Lara Ferrero Gómez",
+      "email": "lfg@cv.unipiaget.org",
+      "contact": ""
+    },
+    "scopes": [
+      "Biology",
+      "Climate Tech"
+    ],
+    "research_abstract": "This study analyzes the effects of climate change on the African continent and evaluates its impact on demographic profiles. Climate change affects people's health directly and indirectly, including infectious diseases, malnutrition, food insecurity, and damage to mental health. Africa's climate has warmed more than the global average since pre-industrial times, with rising temperatures and alterations in rainfall patterns projected to shift the prevalence of diseases like malaria, dengue, and measles.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T02:55:43.585847",
+    "last_updated": ""
+  },
+  {
+    "id": 15,
+    "session_id": "2ecafd20-c9c2-4286-a9aa-37fe499ac818",
+    "url": "https://cs4rra.wascal.org/img/Final_CS4RRA_White_Paper_final_28_Oct_2024_revised.pdf",
+    "university": "WASCAL",
+    "location": {
+      "city": "Accra",
+      "country": "Ghana"
+    },
+    "website": "https://cs4rra.wascal.org/",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "JPI Climate and AU-EU STI Partnership",
+    "point_of_contact": {
+      "email": "info@wascal.org"
+    },
+    "scopes": [
+      "Climate Services",
+      "Risk Reduction",
+      "Africa"
+    ],
+    "research_abstract": "The West African countries share a myriad of challenges, including environmental degradation, desertification, enhanced rainfall variability, unprecedented heat waves, floodings and declining agricultural productivity. To address these challenges, the Climate Services for Risk Reduction in Africa (CS4RRA) was initiated by France and Germany through their ministries of higher education and research (MESR and BMBF respectively), with West African regional and national institutions such as ACMAD, AGRHYMET/CILSS, WASCAL, Universities, National Governmental Services in West Africa with the aim to enhance climate resilience through Knowledge, Innovation, and Capacity Building (KIC).",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T02:57:06.471278",
+    "last_updated": ""
+  },
+  {
+    "id": 16,
+    "session_id": "2ecafd20-c9c2-4286-a9aa-37fe499ac818",
+    "url": "https://futureclimateafrica.org/coproduction-manual/downloads/WISER-FCFA-coproduction--case-study-9.pdf",
+    "university": "University of Cape Town",
+    "location": {
+      "city": "",
+      "country": "South Africa"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-cape-town/rankings/"
+    },
+    "department": {
+      "name": "Climate Systems Analysis Group",
+      "focus": "Climate Change"
+    },
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "name": "Katinka Lund Waagsaether",
+      "email": "katinka@csag.uct.ac.za",
+      "contact": ""
+    },
+    "scopes": [
+      "Climate Change",
+      "Urban Africa"
+    ],
+    "research_abstract": "The Future Resilience for African Cities and Lands (FRACTAL) project aims to advance scientific knowledge about regional climate responses to human activities and integrate this knowledge into climate-sensitive decisions at the city-regional scale.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T02:57:37.667966",
+    "last_updated": ""
+  },
+  {
+    "id": 17,
+    "session_id": "2ecafd20-c9c2-4286-a9aa-37fe499ac818",
+    "url": "https://journals.ukzn.ac.za/index.php/joe/article/download/3199/2173/",
+    "university": "University of Ghana",
+    "location": {
+      "city": "Accra",
+      "country": "Ghana"
+    },
+    "website": "https://ug.edu.gh",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-ghana/rankings/"
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "email": "admissions@ug.edu.gh"
+    },
+    "scopes": [],
+    "research_abstract": "",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T02:58:25.193278",
+    "last_updated": ""
+  },
+  {
+    "id": 18,
+    "session_id": "2c2ad83a-7ca3-47b2-a4e7-f29bd9955d7a",
+    "url": "https://devinit.org/files/documents/1501/from_gender-relevant_to_gender-transformative_climate_finance_rwanda_case_study.pdf",
+    "university": "Kvinna till Kvinna Foundation",
+    "location": {
+      "city": "Rwanda",
+      "country": "Rwanda"
+    },
+    "website": "www.kvinnatillkvinna.org",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "email": "info@kvinnatillkvinna.se"
+    },
+    "scopes": [
+      "Gender Equality",
+      "Climate Change"
+    ],
+    "research_abstract": "This policy brief aims to shed light on the issues of gender-relevant climate finance in Rwanda and propose actionable recommendations for achieving gender-transformative climate finance.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T03:43:49.299405",
+    "last_updated": ""
+  },
+  {
+    "id": 19,
+    "session_id": "2c2ad83a-7ca3-47b2-a4e7-f29bd9955d7a",
+    "url": "https://earilab.ranlab.org/rilabs/",
+    "university": "Eastern Africa Resilience Innovation Lab",
+    "location": {
+      "city": "Kampala",
+      "country": "Uganda"
+    },
+    "website": "https://earilab.ranlab.org/",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "Gulu University, National University of Rwanda, University of Kinshasa, Muhimbili University of Health and Allied Sciences",
+    "point_of_contact": {
+      "name": "Nathan Tumuhamye Kipande",
+      "email": "ntumuhamye@ranlab.org",
+      "contact": ""
+    },
+    "scopes": [
+      "Resilience",
+      "Innovation",
+      "Climate Variability",
+      "Conflict"
+    ],
+    "research_abstract": "The Eastern Africa RILab (EA RILab) is one of four RILabs that have been established across Africa as part of the ResilientAfrica Network. The EA RILab is based at Makerere University School of Public Health, Uganda. The other partner Universities affiliated to the EA RILab include Gulu University (Uganda), National University of Rwanda (Rwanda) and Kinshasa School of Public Health (DRC). The Lab has identified seven communities that are vulnerable to the effects of climate variability and conflict, and these communities will serve as pilot sites for resilience innovations sponsored by the Lab.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T03:44:00.633820",
+    "last_updated": ""
+  },
+  {
+    "id": 20,
+    "session_id": "2c2ad83a-7ca3-47b2-a4e7-f29bd9955d7a",
+    "url": "https://upjournals.up.ac.za/index.php/jogea/article/download/5488/4807/24757",
+    "university": "Great Zimbabwe University",
+    "location": {
+      "city": "Masvingo",
+      "country": "Zimbabwe"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/great-zimbabwe-university/rankings/"
+    },
+    "department": {
+      "name": "Department of Physics, Geography and Environmental Sciences",
+      "focus": "Climate Change"
+    },
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "name": "G. Chikomo",
+      "email": "guwachikomo@gmail.com",
+      "contact": ""
+    },
+    "scopes": [
+      "Climate Change",
+      "Education and Advocacy"
+    ],
+    "research_abstract": "Understanding high school learners’ perceptions of climate change is important for climate scientists since they are the next generation of leaders, policymakers, and citizens who will be responsible for addressing and mitigating the impacts of future climate change.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T03:44:38.923549",
+    "last_updated": ""
+  },
+  {
+    "id": 21,
+    "session_id": "2c2ad83a-7ca3-47b2-a4e7-f29bd9955d7a",
+    "url": "https://www.efdinitiative.org/sites/default/files/publications/MS%20925%20DP%2019-24%20CORRECTED%20Dec%2030.pdf",
+    "university": "Environment for Development",
+    "location": {
+      "city": "Accra",
+      "country": "Ghana"
+    },
+    "website": "www.efdinitiative.org",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {
+      "name": "Environmental Economics Policy Research Unit",
+      "details": "School of Economics University of Cape Town – South Africa"
+    },
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {},
+    "scopes": [
+      "Biology",
+      "Climate Tech",
+      "Renewable Energy"
+    ],
+    "research_abstract": "Applications of lab experiments to real-world phenomena are limited. We fill the gap by examining how gender attitudes and performance under competitive situations in the lab reflect microenterprise outcomes in the renewable energy sector of Rwanda – a country with progressive gender policies despite its traditional patriarchal setup.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T03:45:20.984835",
+    "last_updated": ""
+  },
+  {
+    "id": 22,
+    "session_id": "2c2ad83a-7ca3-47b2-a4e7-f29bd9955d7a",
+    "url": "https://www.frontiersin.org/journals/climate/articles/10.3389/fclim.2022.874753/pdf",
+    "university": "University of Ghana",
+    "location": {
+      "city": "Accra",
+      "country": "Ghana"
+    },
+    "website": "https://ug.edu.gh",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-ghana/rankings/"
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "email": "admissions@ug.edu.gh"
+    },
+    "scopes": [],
+    "research_abstract": "",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T03:45:32.270292",
+    "last_updated": ""
+  },
+  {
+    "id": 23,
+    "session_id": "2c2ad83a-7ca3-47b2-a4e7-f29bd9955d7a",
+    "url": "https://www.frontiersin.org/journals/climate/articles/10.3389/fclim.2022.908602/pdf",
+    "university": "University of Ghana",
+    "location": {
+      "city": "Accra",
+      "country": "Ghana"
+    },
+    "website": "https://ug.edu.gh",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-ghana/rankings/"
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "email": "admissions@ug.edu.gh"
+    },
+    "scopes": [],
+    "research_abstract": "",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T03:45:40.046061",
+    "last_updated": ""
+  },
+  {
+    "id": 24,
+    "session_id": "41946033-63df-4336-b663-16a1750cb922",
+    "url": "https://circularbioeconomyalliance.org/living-labs/",
+    "university": "",
+    "location": {},
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {},
+    "scopes": [
+      "Landscape Restoration",
+      "Circular Bioeconomy",
+      "Biodiversity",
+      "Agroforestry",
+      "Sustainable Agriculture",
+      "Community Development",
+      "Climate Change Adaptation"
+    ],
+    "research_abstract": "The Circular Bioeconomy Alliance (CBA) is developing a global network of Living Labs focused on restoring ecosystems and improving community livelihoods.  These Living Labs utilize landscape restoration projects as a foundation to stimulate the growth of circular bioeconomy value chains.  The approach integrates traditional knowledge with modern research and innovation, fostering public-private partnerships centered around local communities.  Each Living Lab addresses unique ecological and socio-economic challenges, ranging from sustainable cotton production in Chad to mangrove restoration in Indonesia and agroforestry development in various regions of Africa and South America.  The overarching goal is to build more resilient communities and landscapes by empowering nature and people, demonstrating harmony between ecological restoration and economic development.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T23:02:28.041702",
+    "last_updated": "2025-05-14T07:32:51Z"
+  },
+  {
+    "id": 25,
+    "session_id": "a8ab58e0-fea6-4e13-96d3-1fb2561742ef",
+    "url": "https://africanclimatefoundation.org/wp-content/uploads/2023/11/800832-ACF-Kenya-country-note-04.pdf",
+    "university": "International Food Policy Research Institute (IFPRI)",
+    "location": {
+      "city": "Kenya",
+      "country": "Kenya"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "African Climate Foundation (ACF), International Livestock Research Institute (ILRI), University of London, CGIAR Research Initiative on Foresight",
+    "point_of_contact": {
+      "name": "Iva Detelinova",
+      "contact": ""
+    },
+    "scopes": [
+      "Climate Change",
+      "Economic Impacts",
+      "Kenya"
+    ],
+    "research_abstract": "This report analyzes the potential economic and social impacts of climate change, focusing on climate-vulnerable and critical economic sectors. It summarizes an extensive literature review and internal views and recommendations in four main areas.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T23:03:54.987443",
+    "last_updated": ""
+  },
+  {
+    "id": 26,
+    "session_id": "a8ab58e0-fea6-4e13-96d3-1fb2561742ef",
+    "url": "https://afritvet.org/index.php/Afritvet/article/download/167/151/489",
+    "university": "",
+    "location": {},
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {},
+    "scopes": [
+      "Landscape Restoration",
+      "Circular Bioeconomy",
+      "Agroforestry",
+      "Biodiversity",
+      "Community Development",
+      "Sustainable Agriculture",
+      "Climate Change Adaptation"
+    ],
+    "research_abstract": "The Circular Bioeconomy Alliance (CBA) is developing a global network of Living Labs focused on integrating nature, people, and planet.  These labs utilize landscape restoration projects as a foundation to stimulate the growth of circular bioeconomy value chains.  The approach emphasizes restoring biodiversity, improving local livelihoods, and building more resilient communities and landscapes.  Each Living Lab incorporates traditional knowledge, new research and innovation, and public-private partnerships with local communities at the core.  Examples of projects include regenerative agroforestry for sustainable cotton production, forest restoration initiatives, and the development of fruit forests in the Amazon.  The CBA collaborates with national and international organizations to create transboundary regional Living Labs, enhancing the resilience and adaptation of mountain ecosystems and their communities.  These Living Labs represent a multi-faceted approach to sustainable development, combining ecological restoration with socio-economic improvements.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T23:04:29.424736",
+    "last_updated": "2025-05-14T07:32:51Z"
+  },
+  {
+    "id": 27,
+    "session_id": "a8ab58e0-fea6-4e13-96d3-1fb2561742ef",
+    "url": "https://cigrjournal.org/index.php/Ejounral/article/download/9119/4303/42747",
+    "university": "University of Ghana",
+    "location": {
+      "city": "Accra",
+      "country": "Ghana"
+    },
+    "website": "https://ug.edu.gh",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-ghana/rankings/"
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "email": "admissions@ug.edu.gh"
+    },
+    "scopes": [],
+    "research_abstract": "",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T23:04:40.010830",
+    "last_updated": ""
+  },
+  {
+    "id": 28,
+    "session_id": "a8ab58e0-fea6-4e13-96d3-1fb2561742ef",
+    "url": "https://ecommons.aku.edu/cgi/viewcontent.cgi?article=3298&context=theses_dissertations",
+    "university": "Aga Khan University",
+    "location": {
+      "city": "Nairobi",
+      "country": "Kenya"
+    },
+    "website": "https://ecommons.aku.edu",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/aga-khan-university/rankings/"
+    },
+    "department": {
+      "name": "Graduate School of Media and Communications"
+    },
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "email": "info.gsmc@aku.edu"
+    },
+    "scopes": [
+      "Digital Journalism",
+      "Climate Change"
+    ],
+    "research_abstract": "Media framing of climate change in Kenyan print media: An analysis of the Nation and the Standard Newspapers",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T23:04:54.078001",
+    "last_updated": ""
+  },
+  {
+    "id": 29,
+    "session_id": "a8ab58e0-fea6-4e13-96d3-1fb2561742ef",
+    "url": "https://horticulture.ucdavis.edu/countries/kenya",
+    "university": "University of California, Davis",
+    "location": {
+      "city": "Davis",
+      "country": "USA"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-california-davis/rankings/"
+    },
+    "department": {
+      "name": "Horticulture Innovation Lab"
+    },
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "USAID, Feed the Future",
+    "point_of_contact": {
+      "email": "lit@v2.0.0-rc.3"
+    },
+    "scopes": [
+      "Horticulture",
+      "Food Security",
+      "Agriculture"
+    ],
+    "research_abstract": "The Horticulture Innovation Lab conducts research in Kenya focused on African indigenous vegetables, pest-exclusion nets, seed systems, postharvest practices, improving nutrition, and other topics critical to advancing horticulture in Kenya.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T23:05:13.583928",
+    "last_updated": ""
+  },
+  {
+    "id": 30,
+    "session_id": "a8ab58e0-fea6-4e13-96d3-1fb2561742ef",
+    "url": "https://originlabsafrica.org/",
+    "university": "Origin Research and Innovation Labs",
+    "location": {
+      "city": "",
+      "country": "Africa"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {
+      "name": "Origin Venture School",
+      "focus": "Venture Development"
+    },
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "email": "admin@originlabsafrica.org"
+    },
+    "scopes": [
+      "Problem-Solving",
+      "Innovation",
+      "Venture Development"
+    ],
+    "research_abstract": "Origin Research and Innovation Labs develops programs to implement strategies for problem-solving in Africa and the world. The Practical Field Lab, Origin Fest, and Venture Growth School are effective instruments for mapping challenges, recruiting talent, and mobilizing solutions. The school supports entrepreneurs in scaling up implementation and building resilience.",
+    "lab_equipment": {
+      "overview": "Advanced Lab",
+      "list": []
+    },
+    "timestamp": "2025-06-12T23:05:42.477290",
+    "last_updated": ""
+  },
+  {
+    "id": 31,
+    "session_id": "a8ab58e0-fea6-4e13-96d3-1fb2561742ef",
+    "url": "https://weatheringrisk.org/sites/default/files/document/Climate_Security_Study_Kenya.pdf",
+    "university": "adelphi",
+    "location": {
+      "county": "",
+      "city": "Maryland",
+      "state": "",
+      "postcode": "",
+      "country": "",
+      "display_name": "Adelphi, Prince George's County, Maryland, United States"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "name": "Information Technology",
+      "email": "mailto:helpdesk@adelphi.edu"
+    },
+    "scopes": [],
+    "research_abstract": "Kenya´s topography and environment are diverse, with Arid and Semi-Arid lands (ASALs) occupying over 80 per cent of the land area, creating unique challenges for the approximately 38 per cent of the population that live there. Agriculture is the main economic driver but is very vulnerable to climate shocks, and access to adequate quantities of nutritious food remains a challenge for many. Rapid population growth, stagnating agricultural production and inefficient food systems are undermining livelihoods and food security.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T23:06:09.719114",
+    "last_updated": ""
+  },
+  {
+    "id": 32,
+    "session_id": "a8ab58e0-fea6-4e13-96d3-1fb2561742ef",
+    "url": "https://www.frontiersin.org/journals/climate/articles/10.3389/fclim.2022.859728/pdf",
+    "university": "Origin Research and Innovation Labs",
+    "location": {},
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "email": "admin@originlabsafrica.org"
+    },
+    "scopes": [],
+    "research_abstract": "Origin continues to develop programs for implementation of strategies to accelerate realization of its mission. To this end the Practical Field Lab, Origin Fest, have been very effective instruments for mapping of challenges and scoping problems, recruiting of challenge-owners, and subsequently mobilizing young talent to create solutions. In addition, the Origin Venture Growth School is of enormous value in supporting scale up of implementation of the solutions and ensuring long term sustainability.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T23:06:27.367766",
+    "last_updated": ""
+  },
+  {
+    "id": 33,
+    "session_id": "a8ab58e0-fea6-4e13-96d3-1fb2561742ef",
+    "url": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1404104/pdf",
+    "university": "Origin Research and Innovation Labs",
+    "location": {},
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "email": "admin@originlabsafrica.org"
+    },
+    "scopes": [],
+    "research_abstract": "Origin continues to develop programs for implementation of strategies to accelerate realization of its mission. To this end the Practical Field Lab, Origin Fest, have been very effective instruments for mapping of challenges and scoping problems, recruiting of challenge-owners, and subsequently mobilizing young talent to create solutions. In addition, the Origin Venture Growth School is of enormous value in supporting scale up of implementation of the solutions and ensuring long term sustainability.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T23:06:38.948123",
+    "last_updated": ""
+  },
+  {
+    "id": 34,
+    "session_id": "d2367b57-a02f-4e51-9249-1472790ea7d3",
+    "url": "https://cs4rra.wascal.org/img/CS4RRA_White_Paper_final_28_Oct_2024_revisedVF.pdf",
+    "university": "WASCAL",
+    "location": {
+      "city": "Accra",
+      "country": "Ghana"
+    },
+    "website": "https://cs4rra.wascal.org/",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "JPI Climate and AU-EU STI Partnership",
+    "point_of_contact": {
+      "email": "info@wascal.org"
+    },
+    "scopes": [
+      "Climate Services for Risk Reduction in Africa"
+    ],
+    "research_abstract": "The West African countries share a myriad of challenges, including environmental degradation, desertification, enhanced rainfall variability, unprecedented heat waves, floodings and declining agricultural productivity. To address these challenges, the Climate Services for Risk Reduction in Africa (CS4RRA) was initiated by France and Germany through their ministries of higher education and research (MESR and BMFTR respectively), with West African regional and national institutions such as ACMAD, AGRHYMET/CILSS, WASCAL, Universities, National Governmental Services in West Africa with the aim to enhance climate resilience through Knowledge, Innovation, and Capacity Building (KIC).",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T23:08:34.455699",
+    "last_updated": ""
+  },
+  {
+    "id": 35,
+    "session_id": "d2367b57-a02f-4e51-9249-1472790ea7d3",
+    "url": "https://weadapt.org/wp-content/uploads/2023/05/c-adapt_senegal_final_0.pdf",
+    "university": "World Food Programme",
+    "location": {
+      "country": "Senegal"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "WFP, Oxfam America",
+    "point_of_contact": {},
+    "scopes": [
+      "Food Security",
+      "Climate Change Adaptation",
+      "Resilience"
+    ],
+    "research_abstract": "This report provides an overview of the R4 Rural Resilience Initiative (R4) in Senegal, jointly implemented by WFP and Oxfam America with national partners. It describes the design of the R4 initiative in Senegal, including the main steps in setting up the project, as well as lessons learned for other countries to replicate the project.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T23:08:55.953836",
+    "last_updated": ""
+  },
+  {
+    "id": 36,
+    "session_id": "d2367b57-a02f-4e51-9249-1472790ea7d3",
+    "url": "https://www.climatefinancelab.org/wp-content/uploads/2019/03/WAICSA-v16_18092019-_Final.pdf",
+    "university": "",
+    "location": {
+      "city": null,
+      "country": "West Africa"
+    },
+    "website": null,
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "ECOWAS, EBID, RAAF, African Guarantee Fund (AGF), PROPARCO,  Australian, Dutch, German, and UK governments, Bloomberg Philanthropies, GIZ, the International Fund for Agricultural Development (IFAD), the Rockefeller Foundation, and the Shakti Sustainable Energy Foundation, Climate Policy Initiative",
+    "point_of_contact": {},
+    "scopes": [
+      "Sustainable Agriculture",
+      "Climate-smart agriculture",
+      "Sustainable finance",
+      "low-carbon economy",
+      "blue carbon in marine & coastal ecosystems",
+      "sustainable energy access",
+      "sustainable cities"
+    ],
+    "research_abstract": "The West African Initiative for Climate-Smart Agriculture (WAICSA) is a blended finance fund supporting smallholder farmers and agribusinesses in adopting climate-smart agriculture practices in West Africa.  It addresses the financing gap hindering adaptation to climate change impacts, which threaten agricultural productivity. WAICSA provides financial and technical support through grants, subsidized loans, guarantees, and equity investments.  The fund is structured with different investor classes (Class A senior, Class A mezzanine, Class B) to manage risk and attract diverse funding sources.  A Technical Assistance (TA) Facility complements the Financing Facility, providing grants for implementing climate-smart practices and integrating climate-smart metrics into loan products.  The initiative aims to improve access to financial services, increase investment in climate-smart agriculture, and enhance resilience to climate shocks.  Key stakeholders include ECOWAS Member States, the ECOWAS Bank for Investment and Development (EBID), the Regional Agency for Agriculture and Food (RAAF), and various international donors and investors.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T23:09:08.346991",
+    "last_updated": ""
+  },
+  {
+    "id": 37,
+    "session_id": "d2367b57-a02f-4e51-9249-1472790ea7d3",
+    "url": "https://www.frontiersin.org/journals/climate/articles/10.3389/fclim.2024.1332196/pdf",
+    "university": "Origin Research and Innovation Labs",
+    "location": {},
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "email": "admin@originlabsafrica.org"
+    },
+    "scopes": [],
+    "research_abstract": "Programs to accelerate and scale problem-solving for Africa & the world. Origin continues to develop programs for implementation of strategies to accelerate realization of its mission.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T23:09:28.454836",
+    "last_updated": ""
+  },
+  {
+    "id": 38,
+    "session_id": "d2367b57-a02f-4e51-9249-1472790ea7d3",
+    "url": "https://www.iemed.org/wp-content/uploads/2023/04/Climate-Change-and-Migration_FNF_IEMed_.pdf",
+    "university": "",
+    "location": {},
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "European Institute of the Mediterranean (IEMed), Policy Center for the New South, CeSPI- Centro Studi di Politica Internazionale",
+    "point_of_contact": {
+      "name": "Xavier Aragall, Amal El Ouassif, Anna Ferro, Matías Ibáñez",
+      "email": "",
+      "contact": ""
+    },
+    "scopes": [
+      "Climate change",
+      "Migration",
+      "Sahel Zone",
+      "West Africa",
+      "Maghreb",
+      "Sustainable Development",
+      "Regional Integration"
+    ],
+    "research_abstract": "This publication, \"Climate change and migration: Understanding factors, developing opportunities in the Sahel Zone, West Africa and the Maghreb,\" examines the complex interplay between climate change and human displacement in North and West Africa.  The research explores the factors driving climate-induced migration, analyzing climatic variations and their impact on livelihoods.  It investigates climate change as a risk multiplier in human displacement, considering potential scenarios and adaptation strategies.  The study includes field research in the Sousse-Massa region of Morocco, focusing on migration as an adaptation to climate change.  The publication also presents policy proposals and incorporates perspectives from various institutions and experts across the region, including the European Institute of the Mediterranean (IEMed), the Policy Center for the New South, and CeSPI- Centro Studi di Politica Internazionale.  The research covers perceptions of climate change's impact on livelihoods and forced displacement, analyzing data from sources such as the Afrobarometer survey.  The overall aim is to provide a comprehensive understanding of climate-induced mobility in the region and to inform the development of effective policies and opportunities.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T23:09:51.267327",
+    "last_updated": ""
+  },
+  {
+    "id": 39,
+    "session_id": "d2367b57-a02f-4e51-9249-1472790ea7d3",
+    "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2022/05/strengthening-capacity-for-climate-action-in-developing-countries_a8108519/0481c16a-en.pdf",
+    "university": "OECD",
+    "location": {
+      "city": "Paris",
+      "country": "France"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "Australia, Belgium, the European Union, Germany, Ireland, Sweden, Switzerland, International Institute for Environment and Development, the Climate and Development Knowledge Network, the United Nations Framework Convention on Climate Change, and the Islamic Development Bank",
+    "point_of_contact": {
+      "name": "",
+      "email": "dac.contact@oecd.org",
+      "contact": ""
+    },
+    "scopes": [
+      "Climate Change",
+      "Capacity Development"
+    ],
+    "research_abstract": "Despite years of donor country engagement, developing countries’ efforts to fight climate change and its consequences remain stifled by important capacity gaps. This paper reviews the experience of development co-operation partners in strengthening capacities in this area. It provides an in-depth analysis of official development assistance trends and flows, as well as an overview of the enabling factors, obstacles and good practices. Finally, it suggests ways to overcome a number of technical, political and organisational challenges, and to accelerate capacity development for more effective climate action in partner countries.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-12T23:10:03.637540",
+    "last_updated": ""
+  },
+  {
+    "id": 40,
+    "session_id": "129784f0-d267-444f-953b-088630302a0c",
+    "url": "https://files.eric.ed.gov/fulltext/EJ1415343.pdf",
+    "university": "University of Education, Winneba",
+    "location": {
+      "city": "Ashanti Mampong",
+      "country": "Ghana"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-education-winneba/"
+    },
+    "department": {
+      "name": "Department of Biology Education"
+    },
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "name": "Yaw Ameyaw",
+      "email": "syameyaw@yahoo.com"
+    },
+    "scopes": [
+      "Biology",
+      "Education"
+    ],
+    "research_abstract": "This research study examined the effect of concept mapping and cooperative learning strategies on enhancing students’ attitudes towards the development of biology in two selected deprived science-based senior high schools within the Ashanti Mampong municipality of Ghana.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-13T19:12:18.753238",
+    "last_updated": ""
+  },
+  {
+    "id": 41,
+    "session_id": "f64f7f7d-416f-4e0a-a69c-b4bb55b529c2",
+    "url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1004308&type=printable",
+    "university": "Wa Polytechnic",
+    "location": {
+      "city": "Wa",
+      "country": "Ghana"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/wa-polytechnic/"
+    },
+    "department": {
+      "name": "Department of Science Laboratory Technology",
+      "focus": "Bioinformatics"
+    },
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "name": "Thomas K. Karikari",
+      "email": "ohenekakari@gmail.com"
+    },
+    "scopes": [
+      "Bioinformatics",
+      "Biomedical Science",
+      "Agriculture"
+    ],
+    "research_abstract": "This paper discusses the development of bioinformatics in Ghana and its contribution to the overall development of the discipline in Africa. It highlights the challenges faced by scientists in Ghana, including scarce research funding and inadequate training opportunities.",
+    "lab_equipment": {},
+    "timestamp": "2025-07-02T06:18:40.253510",
+    "last_updated": ""
+  },
+  {
+    "id": 42,
+    "session_id": "129784f0-d267-444f-953b-088630302a0c",
+    "url": "https://www.idpublications.org/wp-content/uploads/2020/02/Full-Paper-APPRAISAL-OF-BIOLOGY-TEACHERS%E2%80%99-PRACTICES-IN-ORGANISING-PRACTICAL-WORK-IN-SECOND-CYCLE.pdf",
+    "university": "University of Education, Winneba",
+    "location": {
+      "city": "Winneba",
+      "country": "Ghana"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-education-winneba/"
+    },
+    "department": {
+      "name": "Department of Integrated Science Education",
+      "focus": ""
+    },
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "name": "Godfred Safo-Adu",
+      "email": "gsafoadu@gmail.com",
+      "contact": ""
+    },
+    "scopes": [
+      "Biology",
+      "Science Education"
+    ],
+    "research_abstract": "The study examined Biology teachers’ practices in organising practical work in Second Cycle Institutions in Eastern Region of Ghana. ...",
+    "lab_equipment": {},
+    "timestamp": "2025-06-13T19:13:11.044642",
+    "last_updated": ""
+  },
+  {
+    "id": 43,
+    "session_id": "129784f0-d267-444f-953b-088630302a0c",
+    "url": "https://www.idpublications.org/wp-content/uploads/2024/03/Full-Paper-LEVEL-OF-EXPOSURE-AND-EFFECTIVE-USAGE-OF-BIOLOGY-LABORATORY-FACILITIES-BY-TEACHERS.pdf",
+    "university": "University of Education, Winneba",
+    "location": {
+      "city": "Winneba",
+      "country": "Ghana"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-education-winneba/"
+    },
+    "department": {
+      "name": "Department of Biology Education"
+    },
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "name": "Collins Owusu-Fordjour",
+      "email": "cofordjour@uew.edu.gh",
+      "contact": ""
+    },
+    "scopes": [
+      "Biology",
+      "Education"
+    ],
+    "research_abstract": "The study explored the level of exposure and effective usage of biology laboratory facilities by teachers from selected senior high schools in Ghana. The study discovered that teachers found it very difficult to teach and conduct regular laboratory exercises with their students due to the heavy workload on them. Also, the lack of adequate laboratory equipment and materials is a major contributing factor to teachers' reluctance to conduct laboratory exercises.",
+    "lab_equipment": {
+      "overview": "Biology laboratory facilities",
+      "list": []
+    },
+    "timestamp": "2025-06-13T19:13:35.422628",
+    "last_updated": ""
+  },
+  {
+    "id": 44,
+    "session_id": "129784f0-d267-444f-953b-088630302a0c",
+    "url": "https://www.iiste.org/Journals/index.php/JEP/article/download/61365/63349",
+    "university": "University of Education, Winneba",
+    "location": {
+      "city": "Winneba",
+      "country": "Ghana"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-education-winneba/"
+    },
+    "department": {
+      "name": "Department of Biology Education"
+    },
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "name": "Wisdom Harrison Kofi Hordzi (PhD)",
+      "email": "wisdomhordzi@gmail.com"
+    },
+    "scopes": [
+      "Biology",
+      "Education"
+    ],
+    "research_abstract": "The purpose of this study was to determine the attitudes (expectations and reactions) and achievement of Second Year Home Economics students during biology practical lessons using Traditional Laboratory Approach (TLA) and Multimedia Laboratory Approach (MLA) in three topics in two Districts of Oti Region, Ghana.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-13T19:14:04.875670",
+    "last_updated": ""
+  },
+  {
+    "id": 45,
+    "session_id": "129784f0-d267-444f-953b-088630302a0c",
+    "url": "https://www.journals.uchicago.edu/doi/pdfplus/10.1086/674941",
+    "university": "University of Ghana",
+    "location": {
+      "city": "Accra",
+      "country": "Ghana"
+    },
+    "website": "https://ug.edu.gh",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-ghana/rankings/"
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "email": "admissions@ug.edu.gh"
+    },
+    "scopes": [],
+    "research_abstract": "",
+    "lab_equipment": {},
+    "timestamp": "2025-06-13T19:14:16.506235",
+    "last_updated": ""
+  },
+  {
+    "id": 46,
+    "session_id": "1d9ce2aa-ccc5-478b-aca5-5796334ab938",
+    "url": "https://desisnetwork.org/polimi-desis-lab/",
+    "university": "University of Ghana",
+    "location": {
+      "city": "Accra",
+      "country": "Ghana"
+    },
+    "website": "https://ug.edu.gh",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-ghana/rankings/"
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "email": "admissions@ug.edu.gh"
+    },
+    "scopes": [],
+    "research_abstract": "",
+    "lab_equipment": {},
+    "timestamp": "2025-06-19T13:17:07.006926",
+    "last_updated": ""
+  },
+  {
+    "id": 47,
+    "session_id": "fdd24f51-d559-4329-a979-ccd5cb9e3141",
+    "url": "https://gip.ucdavis.edu/people/research-team/University-of-Ghana-Team",
+    "university": "University of Ghana",
+    "location": {
+      "city": "Accra",
+      "country": "Ghana"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-ghana/rankings/"
+    },
+    "department": {
+      "name": "Animal Science",
+      "focus": "Molecular Genetics"
+    },
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "name": "Dr. Boniface Baboreka Kayang",
+      "email": "",
+      "contact": ""
+    },
+    "scopes": [
+      "Molecular Genetics",
+      "Sustainable Use of Indigenous Animal Genetic Resources"
+    ],
+    "research_abstract": "The University of Ghana Team, led by Dr. Boniface Baboreka Kayang, focuses on the conservation and sustainable use of indigenous animal genetic resources. The team has developed and utilized microsatellite markers in the genetic analyses of poultry, producing the first microsatellite linkage map of Japanese quail. The team has also worked on characterizing local chickens in the West African sub-region and has developed vaccination strategies for Gumboro disease in Ghana.",
+    "lab_equipment": {
+      "overview": "Advanced laboratory",
+      "list": [
+        "Microsatellite markers",
+        "Next-generation sequencing technology"
+      ]
+    },
+    "timestamp": "2025-06-13T19:15:27.207572",
+    "last_updated": "2025-06-11T04:57:29Z"
+  },
+  {
+    "id": 48,
+    "session_id": "fdd24f51-d559-4329-a979-ccd5cb9e3141",
+    "url": "https://glabnetwork.org/",
+    "university": "Global Lab",
+    "location": {
+      "city": "Accra",
+      "country": "Ghana"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {},
+    "scopes": [],
+    "research_abstract": "Global Lab is building Ghana’s open science and innovation community. We’re bringing together students, scientists, researchers, innovators, change makers and educators together to work together to solve problems using science and technology.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-13T19:15:39.667038",
+    "last_updated": ""
+  },
+  {
+    "id": 49,
+    "session_id": "fdd24f51-d559-4329-a979-ccd5cb9e3141",
+    "url": "https://openbioeconomy.org/projects/biomaker-challenge-ghana/",
+    "university": "University of Ghana",
+    "location": {
+      "city": "Accra",
+      "country": "Ghana"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-ghana/rankings/"
+    },
+    "department": {
+      "name": "Biomaker Africa Ghana node"
+    },
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "University of Cambridge, Kumasi Hive",
+    "point_of_contact": {
+      "name": "Harry Akligoh",
+      "email": "",
+      "contact": ""
+    },
+    "scopes": [
+      "Biology",
+      "Environmental Sensors",
+      "Biotechnology"
+    ],
+    "research_abstract": "The Biomaker Challenge Ghana focuses on engineering tools for scientific discovery and for the diagnosis and treatment of disease, monitoring of environmental parameters for agricultural purposes, water monitoring and remediation, etc.",
+    "lab_equipment": {
+      "overview": "Building science hardware for biology",
+      "list": [
+        "3D printing",
+        "electronics"
+      ]
+    },
+    "timestamp": "2025-06-13T19:15:56.273341",
+    "last_updated": ""
+  },
+  {
+    "id": 50,
+    "session_id": "fdd24f51-d559-4329-a979-ccd5cb9e3141",
+    "url": "https://www.unesco.org/en/articles/exploring-genetic-research-innovative-solutions-health-challenges-ghana-and-beyond",
+    "university": "University of Ghana",
+    "location": {
+      "city": "Accra",
+      "country": "Ghana"
+    },
+    "website": "https://ug.edu.gh",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-ghana/rankings/"
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "email": "admissions@ug.edu.gh"
+    },
+    "scopes": [],
+    "research_abstract": "",
+    "lab_equipment": {},
+    "timestamp": "2025-06-13T19:16:24.585713",
+    "last_updated": "2025-02-06T16:05:16Z"
+  },
+  {
+    "id": 51,
+    "session_id": "aed7d77b-90bd-4eef-8c9d-fd958afb1a67",
+    "url": "https://afrie.org/about/",
+    "university": "Alliance of International educators, researchers, inventors and innovators to support African universities and research centers",
+    "location": {},
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "name": "Dr. Tesfaye B. Mersha",
+      "email": "",
+      "contact": ""
+    },
+    "scopes": [],
+    "research_abstract": "Create better opportunity for everyone by inspiring, share knowledge to achieve fullest potential, participate in and contribute to the betterment of the society.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-15T07:49:07.875801",
+    "last_updated": ""
+  },
+  {
+    "id": 52,
+    "session_id": "aed7d77b-90bd-4eef-8c9d-fd958afb1a67",
+    "url": "https://atpsnet.org/wp-content/uploads/2017/05/special_paper_series_3.pdf",
+    "university": "African Technology Policy Studies (ATPS)",
+    "location": {
+      "city": "",
+      "country": "Africa"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {},
+    "scopes": [
+      "Biotechnology",
+      "Economic Development"
+    ],
+    "research_abstract": "The paper discusses the role of modern biotechnology in the economic transformation of developing countries, particularly in Africa. It identifies strategic policies and institutional arrangements that would enlarge Africa's prospects of maximizing benefits from biotechnology while minimizing its risks.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-15T07:49:34.947072",
+    "last_updated": ""
+  },
+  {
+    "id": 53,
+    "session_id": "aed7d77b-90bd-4eef-8c9d-fd958afb1a67",
+    "url": "https://atpsnet.org/wp-content/uploads/2020/07/Research-Paper-32.pdf",
+    "university": "University of Edinburgh",
+    "location": {
+      "city": "Nairobi",
+      "country": "UK"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/the-university-of-edinburgh/rankings/"
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "African Technology Policy Studies Network (ATPS), The Scinnovent Centre",
+    "point_of_contact": {
+      "email": "futurestudents@ed.ac.uk"
+    },
+    "scopes": [
+      "Science, Technology and Innovations (STI)",
+      "Open Science",
+      "Innovation and Enterprise"
+    ],
+    "research_abstract": "The African Technology Policy Studies Network (ATPS) is a transdisciplinary network of researchers, policymakers, private sector actors and the civil society promoting the generation, dissemination, use and mastery of Science, Technology and Innovations (STI) for African development, environmental sustainability and global inclusion.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-15T07:49:42.520466",
+    "last_updated": ""
+  },
+  {
+    "id": 54,
+    "session_id": "aed7d77b-90bd-4eef-8c9d-fd958afb1a67",
+    "url": "https://jscires.org/storage/2023/07/JScientometRes-10-3-366.pdf",
+    "university": "University of KwaZulu-Natal",
+    "location": {
+      "county": "",
+      "city": "KwaZulu-Natal",
+      "state": "",
+      "postcode": "",
+      "country": "",
+      "display_name": "University of KwaZulu-Natal, 75th Anniversary Road, eThekwini Ward 101, Durban, eThekwini Metropolitan Municipality, KwaZulu-Natal, 4013, South Africa"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-kwazulu-natal/rankings/"
+    },
+    "department": {
+      "name": "School of Social Sciences",
+      "focus": ""
+    },
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "Stellenbosch University",
+    "point_of_contact": {
+      "name": "Radhamany Sooryamoorthy",
+      "email": "sooryamoorthyr@ukzn.ac.za",
+      "contact": ""
+    },
+    "scopes": [
+      "Science Production",
+      "Research Trends",
+      "Partnerships",
+      "Publications",
+      "Collaboration"
+    ],
+    "research_abstract": "This paper examines the status of science in Africa over the past two decades (2001-2018), focusing on research areas, publications, and collaborations.  Using data from the Web of Science database (508,102 publications), the study analyzes the strengths of African science, individual country contributions, and disparities across the continent.  Key findings include South Africa's significant contribution (25%), followed by Egypt (22%) and Tunisia (8.6%).  The research also reveals substantial growth in publications across most African countries, with increases ranging from two to twenty times over the 19-year period.  The study aims to serve as a benchmark for future research on science production in Africa.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-15T07:49:50.266490",
+    "last_updated": ""
+  },
+  {
+    "id": 55,
+    "session_id": "aed7d77b-90bd-4eef-8c9d-fd958afb1a67",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12105032/",
+    "university": "",
+    "location": {},
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 1,
+      "list": [
+        {
+          "title": "Green Chemistry - Chemistry: A Guide to Library Research - LibGuides at University of Michigan - Flint",
+          "doi": "",
+          "url": "https://libguides.umflint.edu/chemistry/GreenChemistry"
+        }
+      ]
+    },
+    "related": "University of Cape Town (UCT), University College London (UCL), Jomo Kenyatta University of Agriculture and Technology (JKUAT), African Institute of Biomedical Science and Technology (AiBST), West African Centre for Cell Biology of Infectious Pathogens (WACCBIP), Drug Innovation Group in Ghana",
+    "point_of_contact": {
+      "name": "Godfrey Mayoka, Peter Mubanga Cheuka",
+      "email": "godfrey.mayoka@helmholtz-hips.de, godfrey.mayoka@jkuat.ac.ke, peter.cheuka@unza.zm",
+      "contact": ""
+    },
+    "scopes": [
+      "Medicinal Chemistry",
+      "Drug Discovery",
+      "Pharmacogenetics",
+      "Drug-Drug Interactions",
+      "HIV",
+      "TB",
+      "Antiparasitic Treatments",
+      "Translational Science"
+    ],
+    "research_abstract": "This perspective highlights key successes, challenges, and opportunities in medicinal chemistry drug discovery in Africa. Major barriers include limited hit-to-lead and lead optimization programs, insufficient Africa-tailored funding, and misaligned educational curricula.  The authors advocate for scaling successful models, integrating drug discovery concepts into education, and forming strategic partnerships.  Africa's progress requires innovative funding mechanisms and resource-sharing frameworks adapted to its unique challenges. Targeted investments, collaborative networks, and reciprocal knowledge exchange are essential for Africa to transition from a consumer of global medical innovations to a leading contributor, addressing local healthcare needs and advancing global health equity.  The article underscores Africa’s need to bridge translational gaps in drug discovery, particularly in medicinal chemistry, to advance local and global health solutions.  By advocating for research hubs, curriculum integration, and strategic partnerships, the article outlines actionable steps to strengthen Africa’s drug discovery ecosystem.  It also highlights creative and tailored funding mechanisms and resource-sharing frameworks, providing realistic solutions to pressing funding and infrastructure challenges in Africa.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-15T07:50:29.535229",
+    "last_updated": ""
+  },
+  {
+    "id": 56,
+    "session_id": "aed7d77b-90bd-4eef-8c9d-fd958afb1a67",
+    "url": "https://unctad.org/system/files/official-document/ditctedinf2021d6_en.pdf",
+    "university": "",
+    "location": {},
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 1,
+      "list": [
+        {
+          "title": "Green Chemistry - Chemistry: A Guide to Library Research - LibGuides at University of Michigan - Flint",
+          "doi": "",
+          "url": "https://libguides.umflint.edu/chemistry/GreenChemistry"
+        }
+      ]
+    },
+    "related": "United Nations Conference on Trade and Development (UNCTAD), Foreign, Commonwealth and Development Office (FCDO), Instituto 17 (i17)",
+    "point_of_contact": {},
+    "scopes": [
+      "Trade",
+      "Manufacturing",
+      "Environmental Pollution",
+      "Sustainable Development",
+      "Trade-Environment Governance",
+      "Life Cycle Assessment",
+      "Public Environmental Governance",
+      "Private Sector Governance"
+    ],
+    "research_abstract": "This report, \"The Role of Exports in Manufacturing Pollution in Sub–Saharan Africa and South Asia,\" investigates the impact of manufacturing exports on environmental pollution in Sub-Saharan Africa and South Asia.  The study, conducted by the Instituto 17 (i17) in partnership with UNCTAD and funded by the UK's Foreign, Commonwealth and Development Office (FCDO), employs an Input-Output Life Cycle Assessment (IO-LCA) to analyze the environmental consequences of manufacturing activities.  The research examines the role of trade and manufacturing sectors in the economies of the target countries, analyzing their export portfolios and associated pollution levels.  Case studies from Kenya, Tanzania, Bangladesh, and Pakistan provide detailed insights into specific sectors and their environmental impacts.  The report concludes with recommendations for improving environmental law and public governance, strengthening private sector governance, and enhancing the use of Life Cycle Assessment methodologies in these regions to promote more sustainable trade practices. The findings highlight the complex interplay between economic growth, manufacturing exports, and environmental sustainability, offering valuable insights for policymakers and stakeholders.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-15T07:50:55.842970",
+    "last_updated": ""
+  },
+  {
+    "id": 57,
+    "session_id": "aed7d77b-90bd-4eef-8c9d-fd958afb1a67",
+    "url": "https://www.journals.ac.za/sajhe/article/view/2468/1781",
+    "university": "National University of Science and Technology (NUST)",
+    "location": {
+      "city": "",
+      "country": "Zimbabwe",
+      "address": ""
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/national-university-of-sciences-and-technology/"
+    },
+    "department": {
+      "name": "Faculty of Applied Sciences",
+      "focus": "Applied Sciences"
+    },
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "Stellenbosch University",
+    "point_of_contact": {
+      "name": "S. Ngwenya",
+      "email": "ngwenyasimilo@gmail.com",
+      "contact": ""
+    },
+    "scopes": [
+      "Valorisation",
+      "Research Uptake Management",
+      "Science, Technology and Innovation Policy"
+    ],
+    "research_abstract": "Valorisation is a process that adds value to academic knowledge. It comprises all activities pertaining to the dissemination and exploitation of such knowledge for social and economic benefit. A 4D valorisation map was generated for the National University of Science and Technology (NUST) in Zimbabwe, and specifically for the Faculty of Applied Sciences.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-15T07:51:18.190361",
+    "last_updated": ""
+  },
+  {
+    "id": 58,
+    "session_id": "1d9ce2aa-ccc5-478b-aca5-5796334ab938",
+    "url": "https://horticulture.ucdavis.edu/countries/ghana",
+    "university": "University of Ghana",
+    "location": {
+      "city": "Accra",
+      "country": "Ghana"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-ghana/rankings/"
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "email": "admissions@ug.edu.gh"
+    },
+    "scopes": [
+      "Horticulture",
+      "Food Security",
+      "Nutrition",
+      "Agriculture"
+    ],
+    "research_abstract": "The Horticulture Innovation Lab in Ghana focuses on improving food and nutrition security in Ghana and Mali through the production and consumption of African indigenous fruits and vegetables. The lab also promotes postharvest training and research in the West African sub-region.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-19T13:17:35.431567",
+    "last_updated": "2025-06-04T04:23:01Z"
+  },
+  {
+    "id": 59,
+    "session_id": "1d9ce2aa-ccc5-478b-aca5-5796334ab938",
+    "url": "https://journals.dut.ac.za/index.php/ajims/article/download/1291/990/6385",
+    "university": "Ghana Communication Technology University",
+    "location": {
+      "city": "",
+      "country": "Ghana"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {
+      "name": "Information Technology",
+      "focus": ""
+    },
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "Durban University of Technology",
+    "point_of_contact": {
+      "name": "Berlinda Serwaa Boadu",
+      "email": "bboadu@gctu.edu.gh",
+      "contact": ""
+    },
+    "scopes": [
+      "Information Technology",
+      "Gender Studies",
+      "Higher Education",
+      "STEM Education"
+    ],
+    "research_abstract": "This research investigates gender disparities in Information Technology (IT) education at Ghana Communication Technology University (GCTU).  The study uses a qualitative method, employing open-ended questionnaires distributed to forty IT students and analyzing examination scripts of fifty students from 2020-2023.  Admission data from 2018-2023 was also analyzed to identify gender trends.  The research found significant gender disparities in student enrollment, with males constituting approximately 90% of the student population in both diploma and degree programs.  The study concludes that ingrained gender perspectives influence both study choices and career prospects.  Recommendations include GCTU implementing holistic strategies to bridge the gender gap in IT education. The research highlights the global concern of underrepresentation of women in IT, citing statistics on the low percentage of women in IT globally and in specific countries.  The study delves into the various factors contributing to this disparity, including cultural misconceptions and challenges faced by women in the IT field, even after being hired.  The paper emphasizes the importance of addressing this issue, particularly in the context of the United Nations' Sustainable Development Goals (SDGs), specifically SDG 5, which aims to achieve gender equality.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-19T13:17:46.465140",
+    "last_updated": ""
+  },
+  {
+    "id": 60,
+    "session_id": "1d9ce2aa-ccc5-478b-aca5-5796334ab938",
+    "url": "https://scholar.archive.org/work/edikq47rszc2xlvjfr3prh3csy/access/wayback/https://www.ajol.info/index.php/eajess/article/download/230024/217165",
+    "university": "",
+    "location": {},
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "name": "",
+      "email": "Aitratelimit@archive.org",
+      "contact": ""
+    },
+    "scopes": [],
+    "research_abstract": "",
+    "lab_equipment": {},
+    "timestamp": "2025-06-19T13:18:00.473807",
+    "last_updated": ""
+  },
+  {
+    "id": 61,
+    "session_id": "1d9ce2aa-ccc5-478b-aca5-5796334ab938",
+    "url": "https://www.aeaweb.org/conference/2019/preliminary/paper/7biFzAZy",
+    "university": "Ashesi University College",
+    "location": {
+      "city": "Berekuso",
+      "country": "Ghana",
+      "address": ""
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/ashesi-university/"
+    },
+    "department": {
+      "name": "Department of Business Administration",
+      "focus": ""
+    },
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "name": "Stephen E Armah",
+      "email": "searmah@ashesi.edu.gh",
+      "contact": ""
+    },
+    "scopes": [
+      "Higher Education",
+      "Quality Assurance",
+      "Private Universities",
+      "Graduate Education",
+      "Business Administration",
+      "Economic Growth",
+      "Human Capital"
+    ],
+    "research_abstract": "This research investigates quality issues within Ghana's expanding private university system, focusing on the graduate education sector.  Challenges stem from both supply and demand sides.  Supply-side issues include reliance on tuition fees, difficulty attracting qualified faculty due to high teaching loads, low salaries, brain drain, and competition from established public universities.  The ease of entry into the sector also leads to fierce competition. Demand-side problems involve adverse selection, with students lacking motivation or seeking degrees for reasons beyond academic pursuit.  Enforcement challenges exist due to resource constraints faced by the National Accreditation Board (NAB). The research aims to identify and discuss solutions to improve quality in private graduate schools, addressing brain drain and drawing lessons from Ghana's public graduate sector.  The study uses a holistic definition of quality in higher education, encompassing not only quality assurance but also the transformative effect of education on graduates, enabling critical thinking, knowledge creation, and problem-solving skills.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-19T13:18:25.656417",
+    "last_updated": ""
+  },
+  {
+    "id": 62,
+    "session_id": "83108599-ea9a-4ecc-b1fb-8a551265a876",
+    "url": "https://blog.aau.org/wp-content/uploads/2025/03/English_-GC_2025_Concept_Note.pdf",
+    "university": "Association of African Universities",
+    "location": {
+      "city": "Rabat",
+      "country": "Morocco"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "email": "info@aau.org"
+    },
+    "scopes": [
+      "Innovation",
+      "Sustainable Development",
+      "Higher Education",
+      "Africa"
+    ],
+    "research_abstract": "The Association of African Universities is transforming higher education institutions to drive innovation, address sustainable development goals, and empower future generations. The transformation is critical to address socio-economic challenges and realize the vision of Africa's Agenda 2063. The integration of innovation and entrepreneurship, investment in research infrastructure, and the establishment of collaborative research networks are some of the strategies that act as catalysts for higher education to drive innovation, economic growth, and sustainable development in Africa.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-19T13:19:57.654351",
+    "last_updated": ""
+  },
+  {
+    "id": 63,
+    "session_id": "83108599-ea9a-4ecc-b1fb-8a551265a876",
+    "url": "https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=4836&context=libphilprac",
+    "university": "University of Nebraska - Lincoln",
+    "location": {
+      "county": "",
+      "city": "Nebraska",
+      "state": "",
+      "postcode": "",
+      "country": "",
+      "display_name": "University of Nebraska - Lincoln (East Campus), 2000, North 33rd Street, Clinton, Lincoln, Lancaster County, Nebraska, 68503, United States"
+    },
+    "website": "https://digitalcommons.unl.edu/libphilprac",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-nebraska-lincoln/rankings/"
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "email": "registrar@unl.edu"
+    },
+    "scopes": [],
+    "research_abstract": "Information literacy is becoming increasingly important in this contemporary society of rapid technological change of information resources. ...",
+    "lab_equipment": {},
+    "timestamp": "2025-06-19T13:20:09.672302",
+    "last_updated": ""
+  },
+  {
+    "id": 64,
+    "session_id": "83108599-ea9a-4ecc-b1fb-8a551265a876",
+    "url": "https://files.eric.ed.gov/fulltext/EJ1182237.pdf",
+    "university": "Kwame Nkrumah University of Science and Technology",
+    "location": {
+      "city": "Accra",
+      "country": "Ghana"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/kwame-nkrumah-university-of-science-and-technology/"
+    },
+    "department": {
+      "name": "Department of Educational Innovations in Science and Technology",
+      "focus": "Educational Technology"
+    },
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "name": "Harry Barton Essel",
+      "bartoness@gmail.com": ""
+    },
+    "scopes": [
+      "Educational Technology",
+      "Mobile Learning"
+    ],
+    "research_abstract": "This study focused on ownership and usage of smartphones and tablets. Results showed that students owned various types and brands of mobile devices with smartphones recording the highest ownership levels. Android OS was most used on the devices identified. These devices were used mainly for “edutainment”. Irregular internet speed, erratic power supply and high cost of internet data are challenges faced by students in their use of these digital devices.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-19T13:20:28.999711",
+    "last_updated": ""
+  },
+  {
+    "id": 65,
+    "session_id": "83108599-ea9a-4ecc-b1fb-8a551265a876",
+    "url": "https://huichawaii.org/assets/abrokwaa%2C-clemente-2016-steam-huic.pdf",
+    "university": "University of Hawaii",
+    "location": {
+      "city": "Honolulu",
+      "country": "USA",
+      "address": "Hawaii Prince Hotel Waikiki"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "email": "manoa.admissions@hawaii.edu"
+    },
+    "scopes": [],
+    "research_abstract": "This paper examines the scientific and technological contributions of Ghanaian Universities to the development of the Ghanaian society and its people, since their inception in the 1960s. It argues that the Universities have failed to contribute adequately to the scientific and technological development needs of the country due to several constricting factors.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-19T13:21:00.469150",
+    "last_updated": ""
+  },
+  {
+    "id": 66,
+    "session_id": "f76f87d6-529e-4ef6-9642-2e4ba049ea5c",
+    "url": "https://acp.copernicus.org/articles/24/3813/2024/acp-24-3813-2024-relations.html",
+    "university": "University of Ghana",
+    "location": {
+      "city": "Accra",
+      "country": "Ghana"
+    },
+    "website": "https://ug.edu.gh",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-ghana/rankings/"
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "email": "admissions@ug.edu.gh"
+    },
+    "scopes": [],
+    "research_abstract": "",
+    "lab_equipment": {},
+    "timestamp": "2025-06-24T15:25:00.676660",
+    "last_updated": "2014-11-14T00:00:00Z"
+  },
+  {
+    "id": 67,
+    "session_id": "f76f87d6-529e-4ef6-9642-2e4ba049ea5c",
+    "url": "https://data.sbfnetwork.org/sites/default/files/Ghana-Carbon-Market-Framework-For-Public-Release_15122022.pdf",
+    "university": "University of Ghana",
+    "location": {
+      "city": "Accra",
+      "country": "Ghana"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-ghana/rankings/"
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "email": "gcr@epa.gov.gh"
+    },
+    "scopes": [],
+    "research_abstract": "Ghana's framework on international carbon markets and non-market approaches",
+    "lab_equipment": {},
+    "timestamp": "2025-06-24T15:25:10.020203",
+    "last_updated": ""
+  },
+  {
+    "id": 68,
+    "session_id": "f76f87d6-529e-4ef6-9642-2e4ba049ea5c",
+    "url": "https://ercst.org/wp-content/uploads/2021/11/Reporting-on-the-Impacts-of-Response-Measures-Ghana-Case-Study.pdf",
+    "university": "University of Ghana",
+    "location": {
+      "city": "Accra",
+      "country": "Ghana"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-ghana/rankings/"
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "email": "admissions@ug.edu.gh"
+    },
+    "scopes": [],
+    "research_abstract": "This country case study is part of a series prepared for the ERCST Project entitled ‘Reporting on Response Measures under Biennial Update Reporting’. The study was done in collaboration with the Ghana Environmental Protection Agency and an independent consultant in Ghana.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-24T15:25:21.352188",
+    "last_updated": ""
+  },
+  {
+    "id": 69,
+    "session_id": "f76f87d6-529e-4ef6-9642-2e4ba049ea5c",
+    "url": "https://rsb.org/wp-content/uploads/2024/09/rsb-sustainable-feedstock-assessment-saf-in-southeast-asia.pdf",
+    "university": "Roundtable on Sustainable Biomaterials (RSB)",
+    "location": {},
+    "website": "www.rsb.org",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {},
+    "scopes": [
+      "Sustainable Aviation Fuel",
+      "Biomaterials",
+      "Climate Crisis"
+    ],
+    "research_abstract": "This report assesses the sustainable feedstock availability for sustainable aviation fuel production in Southeast Asia, highlighting the need for further research and policy analysis. It provides a macro-overview of the region's most available and sustainable feedstock for SAF production, aiming to guide decision-making.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-24T15:25:39.244225",
+    "last_updated": ""
+  },
+  {
+    "id": 70,
+    "session_id": "3f03fb88-6ae1-4634-a2fc-9b38b0f1fb6a",
+    "url": "https://academicjournals.org/ebook/journal1393857483_IJBMBR-%20October%202013%20Issue.pdf",
+    "university": "Academic Journals",
+    "location": {
+      "county": "",
+      "city": "محافظة بغداد",
+      "state": "",
+      "postcode": "",
+      "country": "",
+      "display_name": "المركز الاكاديمي للنشر في المجلات العالمية, مجسر الصرافية, محلة 118, مدينة الطب, ناحية مرکز قضاء الرصافة, قضاء الرصافة, بغداد, بلدية الرصافة, محافظة بغداد, 10048, العراق"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "name": "",
+      "email": "ijbmbr@academicjournals.org",
+      "contact": ""
+    },
+    "scopes": [],
+    "research_abstract": "The International Journal for Biotechnology and Molecular Biology Research (IJBMBR) provides rapid publication (monthly) of articles in all areas of the subject such as Green energy from chemicals and bio-wastes, Studies in the graft copolymerization of acrylonitrile onto cassava starch by ceric ion induced initiation, Antimutagenic activity of aqueous extract of Momordica charantia, Ethnomedicinal plants and other natural products with anti-HIV active compounds and their putative modes of action etc.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-24T15:35:30.705037",
+    "last_updated": ""
+  },
+  {
+    "id": 71,
+    "session_id": "3f03fb88-6ae1-4634-a2fc-9b38b0f1fb6a",
+    "url": "https://academicjournals.org/ebook/journal1410335924_IJBMBR-%20August%202014%20Issue.pdf",
+    "university": "Academic Journals",
+    "location": {
+      "county": "",
+      "city": "محافظة بغداد",
+      "state": "",
+      "postcode": "",
+      "country": "",
+      "display_name": "المركز الاكاديمي للنشر في المجلات العالمية, مجسر الصرافية, محلة 118, مدينة الطب, ناحية مرکز قضاء الرصافة, قضاء الرصافة, بغداد, بلدية الرصافة, محافظة بغداد, 10048, العراق"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {},
+    "scopes": [],
+    "research_abstract": "The International Journal for Biotechnology and Molecular Biology Research (IJBMBR) provides rapid publication (monthly) of articles in all areas of the subject such as Green energy from chemicals and bio-wastes, Studies in the graft copolymerization of acrylonitrile onto cassava starch by ceric ion induced initiation, Antimutagenic activity of aqueous extract of Momordica charantia, Ethnomedicinal plants and other natural products with anti-HIV active compounds and their putative modes of action etc.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-24T15:35:40.682951",
+    "last_updated": ""
+  },
+  {
+    "id": 72,
+    "session_id": "3f03fb88-6ae1-4634-a2fc-9b38b0f1fb6a",
+    "url": "https://academicjournals.org/ebook/journal1413461225_JEBR-%20October%202014%20Issue.pdf",
+    "university": "Academic Journals",
+    "location": {
+      "county": "",
+      "city": "محافظة بغداد",
+      "state": "",
+      "postcode": "",
+      "country": "",
+      "display_name": "المركز الاكاديمي للنشر في المجلات العالمية, مجسر الصرافية, محلة 118, مدينة الطب, ناحية مرکز قضاء الرصافة, قضاء الرصافة, بغداد, بلدية الرصافة, محافظة بغداد, 10048, العراق"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "name": "Editorial Office",
+      "email": "jebr@academicjournals.org",
+      "contact": ""
+    },
+    "scopes": [],
+    "research_abstract": "",
+    "lab_equipment": {},
+    "timestamp": "2025-06-24T15:35:48.491619",
+    "last_updated": ""
+  },
+  {
+    "id": 73,
+    "session_id": "3f03fb88-6ae1-4634-a2fc-9b38b0f1fb6a",
+    "url": "https://academicjournals.org/ebook/journal1431511255_JCBBR%20May,%202015%20Issue.pdf",
+    "university": "Academic Journals",
+    "location": {
+      "county": "",
+      "city": "محافظة بغداد",
+      "state": "",
+      "postcode": "",
+      "country": "",
+      "display_name": "المركز الاكاديمي للنشر في المجلات العالمية, مجسر الصرافية, محلة 118, مدينة الطب, ناحية مرکز قضاء الرصافة, قضاء الرصافة, بغداد, بلدية الرصافة, محافظة بغداد, 10048, العراق"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "name": "",
+      "email": "jcbbr@academicjournals.org",
+      "contact": ""
+    },
+    "scopes": [
+      "Genome annotation",
+      "Comparative genomics",
+      "Analysis of gene expression",
+      "Structural Bioinformatics Approaches"
+    ],
+    "research_abstract": "The Journal of Computational Biology and Bioinformatics Research (JCBBR) is a peer-reviewed journal that covers all areas of the subject.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-24T15:36:06.780776",
+    "last_updated": ""
+  },
+  {
+    "id": 74,
+    "session_id": "3f03fb88-6ae1-4634-a2fc-9b38b0f1fb6a",
+    "url": "https://academicjournals.org/ebook/journal1435677208_IJBMBR-%20May%202015%20Issue.pdf",
+    "university": "Academic Journals",
+    "location": {
+      "county": "",
+      "city": "محافظة بغداد",
+      "state": "",
+      "postcode": "",
+      "country": "",
+      "display_name": "المركز الاكاديمي للنشر في المجلات العالمية, مجسر الصرافية, محلة 118, مدينة الطب, ناحية مرکز قضاء الرصافة, قضاء الرصافة, بغداد, بلدية الرصافة, محافظة بغداد, 10048, العراق"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "name": "",
+      "email": "ijbmbr@academicjournals.org",
+      "contact": ""
+    },
+    "scopes": [],
+    "research_abstract": "The International Journal for Biotechnology and Molecular Biology Research (IJBMBR) provides rapid publication (monthly) of articles in all areas of the subject such as Green energy from chemicals and bio-wastes, Studies in the graft copolymerization of acrylonitrile onto cassava starch by ceric ion induced initiation, Antimutagenic activity of aqueous extract of Momordica charantia, Ethnomedicinal plants and other natural products with anti-HIV active compounds and their putative modes of action etc.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-24T15:36:36.806498",
+    "last_updated": ""
+  },
+  {
+    "id": 75,
+    "session_id": "3f03fb88-6ae1-4634-a2fc-9b38b0f1fb6a",
+    "url": "https://academicjournals.org/ebook/journal1466587198_AJB%208%20June%202016%20E-book.pdf",
+    "university": "Academic Journals",
+    "location": {
+      "county": "",
+      "city": "محافظة بغداد",
+      "state": "",
+      "postcode": "",
+      "country": "",
+      "display_name": "المركز الاكاديمي للنشر في المجلات العالمية, مجسر الصرافية, محلة 118, مدينة الطب, ناحية مرکز قضاء الرصافة, قضاء الرصافة, بغداد, بلدية الرصافة, محافظة بغداد, 10048, العراق"
+    },
+    "website": "http://www.academicjournals.org/journal/AJB",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "name": "Editorial Office",
+      "email": "ajb@academicjournals.org",
+      "contact": ""
+    },
+    "scopes": [],
+    "research_abstract": "The African Journal of Biotechnology (AJB) is an open access journal that publishes research in areas of applied biochemistry, industrial microbiology, molecular biology, genomics and proteomics, food and agricultural technologies, and metabolic engineering.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-24T15:37:04.539657",
+    "last_updated": ""
+  },
+  {
+    "id": 76,
+    "session_id": "3f03fb88-6ae1-4634-a2fc-9b38b0f1fb6a",
+    "url": "https://academicjournals.org/ebook/journal1484147513_JMLD%20Ebook-%20January%202017%20Issue.pdf",
+    "university": "Andhra University",
+    "location": {
+      "city": "Visakhapatnam",
+      "country": "India",
+      "address": "Visakhapatnam - 530003"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/andhra-university/rankings/"
+    },
+    "department": {
+      "name": "Department of Molecular Biology and Microbiology",
+      "focus": ""
+    },
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {},
+    "scopes": [
+      "Medical Laboratory",
+      "Diagnosis",
+      "Molecular Biology",
+      "Microbiology"
+    ],
+    "research_abstract": "Journal of Medical Laboratory and Diagnosis (JMLD) provides rapid publication (monthly) of articles in all areas of the subject such as Parasitism, Helminthology, Cloning vector, retroviral integration, Genetic markers etc.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-24T15:37:37.861863",
+    "last_updated": ""
+  },
+  {
+    "id": 77,
+    "session_id": "3f03fb88-6ae1-4634-a2fc-9b38b0f1fb6a",
+    "url": "https://academicjournals.org/ebook/journal1626261716_IJBMBR%20January-June%20Ebook.pdf",
+    "university": "Academic Journals",
+    "location": {
+      "city": "Lagos",
+      "country": "Nigeria"
+    },
+    "website": "http://www.academicjournals.org",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "name": "Editorial Office",
+      "email": "ijbmbr@academicjournals.org"
+    },
+    "scopes": [
+      "Biotechnology",
+      "Molecular Biology",
+      "Microbial technology",
+      "Molecular immunology",
+      "System Biology",
+      "Agricultural biotechnology",
+      "Industrial biotechnology",
+      "Bioinformatics and computational biology",
+      "Medical and pharmaceutical biotechnology",
+      "Chemical and metabolic engineering",
+      "Genomics"
+    ],
+    "research_abstract": "The International Journal of Biotechnology and Molecular Biology Research (IJBMBR) is a peer-reviewed open access journal that publishes original research articles, review papers, and short communications, covering all aspects of biotechnology and molecular biology.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-24T15:37:45.312755",
+    "last_updated": ""
+  },
+  {
+    "id": 78,
+    "session_id": "3f03fb88-6ae1-4634-a2fc-9b38b0f1fb6a",
+    "url": "https://academicjournals.org/ebook/journal1631206563_AJMR%20August%202021%20Ebook.pdf",
+    "university": "Academic Journals",
+    "location": {
+      "city": "Lagos",
+      "country": "Nigeria"
+    },
+    "website": "http://www.academicjournals.org",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "email": "ajmr@academicjournals.org",
+      "contact": ""
+    },
+    "scopes": [
+      "Microbiology"
+    ],
+    "research_abstract": "The African Journal of Microbiology Research (AJMR) is a peer-reviewed open access journal that covers all areas of microbiology.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-24T15:38:07.429159",
+    "last_updated": ""
+  },
+  {
+    "id": 79,
+    "session_id": "3f03fb88-6ae1-4634-a2fc-9b38b0f1fb6a",
+    "url": "https://academicjournals.org/ebook/journal1673254366_IJBMBR%20July-December%202022%20Ebook.pdf",
+    "university": "Academic Journals",
+    "location": {
+      "city": "Lagos",
+      "country": "Nigeria",
+      "address": "73023 Victoria Island, Lagos, Nigeria"
+    },
+    "website": "http://www.academicjournals.org",
+    "edurank": {
+      "score": null,
+      "url": null
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "name": "Editorial Office",
+      "email": "ijbmbr@academicjournals.org",
+      "contact": ""
+    },
+    "scopes": [
+      "Molecular Biology",
+      "Biotechnology",
+      "Microbial technology",
+      "Molecular immunology",
+      "System Biology",
+      "Agricultural biotechnology",
+      "Industrial biotechnology",
+      "Bioinformatics and computational biology",
+      "Medical and pharmaceutical biotechnology",
+      "Chemical and metabolic engineering",
+      "Genomics"
+    ],
+    "research_abstract": "The International Journal of Biotechnology and Molecular Biology Research (IJBMBR) is a peer-reviewed open access journal. The journal commenced publication in March 2010. The main objective of the journal is to bring the latest developments in the field of biotechnology and molecular biology to researchers.",
+    "lab_equipment": {},
+    "timestamp": "2025-06-24T15:38:28.760989",
+    "last_updated": ""
+  },
+  {
+    "id": 80,
+    "session_id": "128bf194-d504-40f4-b2a1-26c10b234f1b",
+    "url": "http://article.abiochemj.org/pdf/ajee.20221001.12",
+    "university": "University of Ghana",
+    "location": {
+      "city": "Accra",
+      "country": "Ghana"
+    },
+    "website": "https://ug.edu.gh",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-ghana/rankings/"
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "email": "admissions@ug.edu.gh"
+    },
+    "scopes": [],
+    "research_abstract": "",
+    "lab_equipment": {},
+    "timestamp": "2025-06-29T18:17:52.065469",
+    "last_updated": "2014-11-14T00:00:00Z"
+  },
+  {
+    "id": 81,
+    "session_id": "128bf194-d504-40f4-b2a1-26c10b234f1b",
+    "url": "https://cleancooking.org/sector-directory/renewable-energy-research-institute-for-africa/",
+    "university": "University of Ghana",
+    "location": {
+      "city": "Accra",
+      "country": "Ghana"
+    },
+    "website": "https://ug.edu.gh",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-ghana/rankings/"
+    },
+    "department": {},
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "",
+    "point_of_contact": {
+      "email": "admissions@ug.edu.gh"
+    },
+    "scopes": [],
+    "research_abstract": "",
+    "lab_equipment": {},
+    "timestamp": "2025-06-29T18:18:16.564559",
+    "last_updated": ""
+  },
+  {
+    "id": 82,
+    "session_id": "f64f7f7d-416f-4e0a-a69c-b4bb55b529c2",
+    "url": "http://www.wapcmls.org/wapcmls-journal.pdf",
+    "university": "University of Ghana",
+    "location": {
+      "city": "Accra",
+      "country": "Ghana"
+    },
+    "website": "",
+    "edurank": {
+      "score": null,
+      "url": "https://edurank.org/uni/university-of-ghana/rankings/"
+    },
+    "department": {
+      "name": "Medical Laboratory Science",
+      "focus": "Various disciplines (Bacteriology, Haematology, Chemical Pathology, etc.)"
+    },
+    "publications": {
+      "count": 0,
+      "list": []
+    },
+    "related": "Kwame Nkrumah University Of Science and Technology, University of Jos, University of Lagos",
+    "point_of_contact": {
+      "name": "The Secretary",
+      "email": "jmbseditor@yahoo.com",
+      "contact": ""
+    },
+    "scopes": [
+      "Medical Laboratory Science",
+      "Bacteriology",
+      "Haematology",
+      "Chemical Pathology",
+      "Immunology",
+      "Histopathology",
+      "Immunohistochemistry",
+      "Mycology",
+      "Molecular Diagnostics/Translational Science",
+      "Parasitology/Entomology",
+      "Public Health/Epidemiology",
+      "Virology"
+    ],
+    "research_abstract": "The ANNALS OF MEDICAL LABORATORY SCIENCE is a journal that publishes refereed papers on various disciplines of Medical Laboratory Science.",
+    "lab_equipment": {},
+    "timestamp": "2025-07-02T06:18:16.312345",
+    "last_updated": ""
+  }
+]

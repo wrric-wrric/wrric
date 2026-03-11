@@ -1,0 +1,170 @@
+Okay, so now we need to include a functionality such that the administrator dashboard on the 
+front end can be able to import a CSV of a number of individuals having their names, emails, 
+and a whole lot. Then the administrator can either select all of the individuals in there, or 
+then the administrator can select a selected few, then we'll be able to include them such that 
+a profile will be created for them, and an email will be sent to them so that they actually create 
+a password and can be able to access their profile, and also then they can proceed to create labs and
+ be part of the Unlokinno community or platform. So this functionality has to be, so we need to first 
+ create an API, then, yeah, so an API specifically, then based on the fields provided, we can then see 
+ how best the data can be used to create a profile based on the current profile attributes that they have. But then
+ if the individual declines then the profile will be removed. This is just my idea about how it should be done but check out 
+ and use the best method possible. and provide clear guideline and information as well as instructions so that the frontend can use for its implementation to connect 
+
+
+ a sample of the csv is below
+
+ Timestamp,Email address,select theme,Individual /group,Full name(s),Mobile Number,What's your occupation?,College/University ,Department/Faculty ,Study Program/Major,Organisation/company,Occupancy / position,Field of Specialization,Idea (250 words),Ideas title,Attach photos (if any ) as a proof of work,Want to submit your idea? 
+14/01/2026 17:55:42,miriamkwambui6@gmail.com,"Green Chemistry, Climate Innovation & Renewable Energy",individual,Miriam Wambui Karanja,±254790413351,Graduate,,,,,,,,,,"No, complete registration"
+14/01/2026 18:02:56,meshackcheboi3@gmail.com,"water, Geography and Green Economy",individual,Meshack kirop cheboi ,0705 111596 ,Student,University ,Computing ,Applied computer science ,,,,,,,"Yes, let's preceed to idea submision"
+
+===================================================================================
+⚠️ IMPORTANT: EVENT ACCESS - UUID vs SLUG
+===================================================================================
+
+===================================================================================
+✅ FIXED: TIMEZONE COMPARISON ERROR
+===================================================================================
+
+## ISSUE: Event registration status endpoint crashing
+
+Error: "TypeError: can't compare offset-naive and offset-aware datetimes"
+Endpoint: GET /api/events/{event_id}/registration-status
+
+## ROOT CAUSE
+
+Database stores timezone-aware datetimes but code was using timezone-naive:
+
+❌ event.event_datetime < datetime.utcnow()  # Can't compare!
+
+## SOLUTION
+
+Use timezone-aware datetime for comparisons:
+
+✅ event.event_datetime < datetime.now(timezone.utc)
+
+## ENDPOINTS FIXED
+
+- GET /api/events/{event_id}/registration-status
+- PUT /api/events/{event_id}/my-registration  
+- DELETE /api/events/{event_id}/my-registration
+
+## DETAILED GUIDE
+
+See: TIMEZONE_COMPARISON_FIX.md
+
+This file contains:
+- Root cause explanation
+- Timezone-aware vs timezone-naive comparison
+- All code changes made
+- Best practices for datetime handling
+- Testing checklist
+
+===================================================================================
+
+===================================================================================
+✅ FIXED: DUPLICATE REGISTRATION ERROR HANDLING
+===================================================================================
+
+## ISSUE: Frontend receiving 500 error instead of 409 duplicate registration
+
+When user tries to register for event they're already registered for:
+
+❌ BEFORE (Broken):
+- Backend detects duplicate correctly ✓
+- Returns 409 with detailed info ✓
+- API endpoint converts to 500 ✗
+- Frontend gets: {"detail": "Failed to register for event"} ✗
+
+✅ AFTER (Fixed):
+- Backend detects duplicate correctly ✓
+- Returns 409 with detailed info ✓
+- API endpoint preserves 409 ✓
+- Frontend gets full error details ✓
+
+## FRONTEND NOW RECEIVES
+
+Status: 409 Conflict
+
+```json
+{
+  "detail": {
+    "error": "duplicate_registration",
+    "message": "You are already registered for this event",
+    "registration_id": "60cfec39-2889-4d04-b47f-43a59af0920f",
+    "registration_status": "pending",
+    "available_actions": ["view", "edit", "cancel"]
+  }
+}
+```
+
+## FRONTEND IMPLEMENTATION
+
+```javascript
+if (response.status === 409) {
+  const error = await response.json();
+  if (error.detail?.error === 'duplicate_registration') {
+    // Show message: "You are already registered for this event"
+    // Show buttons: [View Registration] [Edit] [Cancel]
+    // Use registration_id to navigate to management page
+  }
+}
+```
+
+## DETAILED GUIDE
+
+See: DUPLICATE_REGISTRATION_FIX.md
+
+This file contains:
+- Complete before/after comparison
+- Frontend implementation with code examples
+- UI flow examples
+- All error cases to handle
+- Testing checklist
+
+===================================================================================
+
+## ISSUE: Getting 404 when accessing event by UUID
+
+Event ID: 3af1fb47-c15f-4bd6-b34e-3d123e568ec1
+
+## THE PROBLEM
+
+Public endpoint expects SLUG, not UUID!
+
+❌ WRONG:
+GET /api/events/3af1fb47-c15f-4bd6-b34e-3d123e568ec1
+Result: 404 Not Found
+
+✅ CORRECT:
+GET /api/events/test (or whatever the slug is)
+Result: 200 OK
+
+## QUICK FIX
+
+1. Get the slug from admin endpoint:
+   GET /api/admin/events/3af1fb47-c15f-4bd6-b34e-3d123e568ec1
+   (Look for "slug" field in response)
+
+2. Use slug for public access:
+   GET /api/events/{slug}
+
+## REMEMBER
+
+- Public endpoints: Use SLUG (e.g., "test", "climate-summit")
+- Admin endpoints: Use UUID
+- Public endpoints only show PUBLISHED events
+- Admin endpoints show ALL events
+
+## DETAILED GUIDE
+
+See: EVENT_UUID_VS_SLUG_GUIDE.md
+
+This file contains:
+- Full explanation of slug vs UUID
+- Frontend implementation examples
+- Common mistakes to avoid
+- URL structure reference
+- Testing checklist
+
+===================================================================================
+

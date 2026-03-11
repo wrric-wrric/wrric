@@ -1,0 +1,6 @@
+2025-10-07 14:13:17,161 - INFO - Searching user_entities for query: Biology labs in subsahara Africa
+2025-10-07 14:13:17,906 - INFO - No candidates found for query: Biology labs in subsahara Africa
+2025-10-07 14:13:17,908 - INFO - Retrieved 0 user entities for query: Biology labs in subsahara Africa
+2025-10-07 14:13:26,100 - INFO - HTTP Request: GET https://s.jina.ai/?q=Biology+labs+in+subsahara+Africa+site:*.*atpsnet.org "HTTP/1.1 422 Unprocessable Entity"
+2025-10-07 14:13:26,106 - WARNING - Jina Reader search failed: Client error '422 Unprocessable Entity' for url 'https://s.jina.ai/?q=Biology+labs+in+subsahara+Africa+site:*.*atpsnet.org'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422, falling back to Google search2025-10-07 14:13:26,108 - INFO - Searching Google for: Biology labs in subsahara Africa site:*.*atpsnet.org (max_results=2)

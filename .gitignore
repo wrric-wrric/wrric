@@ -1,0 +1,68 @@
+# Python
+**/venv*/
+**/__pycache__/*
+**/*.pyc
+**/*.pyo
+**/.env
+**/*.log
+**/*.sqlite
+**/*.tmp
+**/server_log.txt
+**/favicon_cache.sqlite
+**/server_log.txt
+**/*.pyc
+**/.pytest_cache/
+**/htmlcov/
+**/.tox/
+**/.nox/
+**/.coverage
+**/.coverage.*
+**/.cache
+**/nosetests.xml
+**/coverage.xml
+**/*.pyd
+**/build/
+**/dist/
+
+# Node
+**/node_modules/*
+**/.next/*
+**/.env.local
+**/.env.development
+**/.env.production
+**/out/
+**/.vercel
+
+# Logs
+**/logs/*
+**/*.log
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# PostgreSQL
+schema_dump.sql
+
+# Local project files
+**/CURRENT_ERRORS.txt
+**/CURRENT_ERROR.txt
+**/mypowershellCMDS.txt
+**/noteOfErrors.txt
+**/Postman_tests/
+**/Postman%20tests/
+**/*.pdf
+**/*.jpeg
+**/*.csv
