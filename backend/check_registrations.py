@@ -22,7 +22,7 @@ class EventRegistration(Base):
     metadata_ = Column(JSONB)
     registration_date = Column(DateTime)
 
-DATABASE_URL = "postgresql+asyncpg://postgres:9858@localhost:5432/unlokinno"
+DATABASE_URL = "postgresql+asyncpg://postgres:9858@localhost:5432/wrric"
 EVENT_ID = "5f7c3568-77d9-4a0a-91a2-b3263acf3464"
 
 async def main():

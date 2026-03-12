@@ -4,7 +4,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 # Create a shared logger name
-LOGGER_NAME = "unlokinno"
+LOGGER_NAME = "wrric"
 
 # Respect LOG_LEVEL env var (defaults to INFO in production)
 LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO").upper()

@@ -122,7 +122,7 @@ Should output an array like:
 
 ### 5. Check File Exists
 ```bash
-ls -la /home/airlectric/unlokinno-frontend/app/api/events/banner/route.ts
+ls -la /home/airlectric/wrric-frontend/app/api/events/banner/route.ts
 ```
 
 Should exist and be ~500 bytes.

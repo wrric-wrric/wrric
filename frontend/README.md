@@ -1,4 +1,4 @@
-# Unlokinno - Climate Tech Research Platform
+# WRRIC - Climate Tech Research Platform
 
 <div align="center">
 
@@ -35,7 +35,7 @@
 
 ## 🌍 About
 
-**Unlokinno** is a comprehensive climate tech research and collaboration platform designed specifically for Sub-Saharan Africa. It connects researchers, laboratories, innovators, and funding partners to accelerate climate action through technology and collaboration.
+**WRRIC** is a comprehensive climate tech research and collaboration platform designed specifically for Sub-Saharan Africa. It connects researchers, laboratories, innovators, and funding partners to accelerate climate action through technology and collaboration.
 
 The platform serves as a centralized hub for:
 - 🔬 **Research Discovery** - Find and explore climate tech laboratories and research institutions
@@ -173,7 +173,7 @@ The platform serves as a centralized hub for:
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd unlokinno-frontend
+   cd wrric-frontend
    ```
 
 2. **Install dependencies**
@@ -312,7 +312,7 @@ npm run start
 ## 📁 Project Structure
 
 ```
-unlokinno-frontend/
+wrric-frontend/
 ├── app/                          # Next.js App Router
 │   ├── admin/                    # Admin panel routes
 │   │   ├── events/              # Event management

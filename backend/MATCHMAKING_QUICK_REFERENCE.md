@@ -110,7 +110,7 @@ alembic upgrade head
 ```bash
 # The optimized algorithm is already integrated
 # Just restart the application
-systemctl restart unlokinno
+systemctl restart wrric
 # or
 uvicorn main:app --reload
 ```

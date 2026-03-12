@@ -685,7 +685,7 @@ Matchmaking complete: {
 ### Step 1: Backup Current System
 ```bash
 # Backup database
-pg_dump unlokinno > backup_$(date +%Y%m%d).sql
+pg_dump wrric > backup_$(date +%Y%m%d).sql
 
 # Backup algorithm file
 cp algorithms/matchmaking.py algorithms/matchmaking_backup.py
@@ -700,7 +700,7 @@ alembic upgrade head
 ```bash
 # The optimized algorithm is already integrated in main.py
 # Just restart the application
-systemctl restart unlokinno
+systemctl restart wrric
 ```
 
 ### Step 4: Verify
@@ -722,7 +722,7 @@ alembic downgrade -1
 mv algorithms/matchmaking_backup.py algorithms/matchmaking.py
 
 # Restart application
-systemctl restart unlokinno
+systemctl restart wrric
 ```
 
 ---

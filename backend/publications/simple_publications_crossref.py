@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 CROSSREF_BASE = "https://api.crossref.org/works"
 
 # Update with your contact email per Crossref etiquette:
-USER_AGENT = "unlokinno/1.0 (mailto:agudeydaniel8@gmail.com)"
+USER_AGENT = "wrric/1.0 (mailto:agudeydaniel8@gmail.com)"
 
 # Simple on-disk cache
 CACHE_DIR = "crossref_cache"

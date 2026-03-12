@@ -1,4 +1,4 @@
-# Unlokinno Intelligence Platform - Backend
+# WRRIC Intelligence Platform - Backend
 
 <div align="center">
 
@@ -39,7 +39,7 @@
 
 ## 🎯 Overview
 
-The Unlokinno Intelligence Platform is a **B2B ecosystem platform** connecting climate tech researchers, labs, entrepreneurs, funders, and judges. It provides:
+The WRRIC Intelligence Platform is a **B2B ecosystem platform** connecting climate tech researchers, labs, entrepreneurs, funders, and judges. It provides:
 
 - **Research Intelligence** - AI-powered lab discovery and matchmaking
 - **Hackathon Management** - Complete hackathon lifecycle with judge scoring
@@ -282,8 +282,8 @@ backend_lastest/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/unlokinno/unlokinno-intelligence.git
-   cd unlokinno-intelligence/backend_lastest
+   git clone https://github.com/wrric-wrric/wrric.git
+   cd wrric
    ```
 
 2. **Create virtual environment**
@@ -347,9 +347,9 @@ Create a `.env` file in the root directory:
 # ═══════════════════════════════════════════════════════════════
 # DATABASE
 # ═══════════════════════════════════════════════════════════════
-DATABASE_URL=postgresql+asyncpg://user:password@localhost:5432/unlokinno
+DATABASE_URL=postgresql+asyncpg://user:password@localhost:5432/wrric
 # For sync operations (Alembic)
-SYNC_DATABASE_URL=postgresql://user:password@localhost:5432/unlokinno
+SYNC_DATABASE_URL=postgresql://user:password@localhost:5432/wrric
 
 # ═══════════════════════════════════════════════════════════════
 # AUTHENTICATION
@@ -379,8 +379,8 @@ SMTP_SERVER=smtp.gmail.com
 SMTP_PORT=465
 SMTP_USERNAME=your-email@gmail.com
 SMTP_PASSWORD=your-app-password
-EMAIL_FROM_NAME=Unlokinno Platform
-EMAIL_FROM_ADDRESS=noreply@unlokinno.com
+EMAIL_FROM_NAME=WRRIC Platform
+EMAIL_FROM_ADDRESS=noreply@wrric.com
 
 # ═══════════════════════════════════════════════════════════════
 # RECAPTCHA
@@ -773,14 +773,14 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - DATABASE_URL=postgresql+asyncpg://user:pass@db:5432/unlokinno
+      - DATABASE_URL=postgresql+asyncpg://user:pass@db:5432/wrric
     depends_on:
       - db
   
   db:
     image: postgres:15
     environment:
-      POSTGRES_DB: unlokinno
+      POSTGRES_DB: wrric
       POSTGRES_USER: user
       POSTGRES_PASSWORD: pass
     volumes:
@@ -854,6 +854,6 @@ This project is private
 
 **Built with ❤️ for Climate Tech Innovation**
 
-[Report Bug](https://github.com/unlokinno/unlokinno-intelligence/issues) • [Request Feature](https://github.com/unlokinno/unlokinno-intelligence/issues)
+[Report Bug](https://github.com/wrric-wrric/wrric/issues) • [Request Feature](https://github.com/wrric-wrric/wrric/issues)
 
 </div>

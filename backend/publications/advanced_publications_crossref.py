@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.INFO)
 
 CROSSREF_BASE = "https://api.crossref.org/works"
 # Replace with your contact email per Crossref etiquette:
-USER_AGENT = "unlokinno/1.0 (mailto:YOUR_EMAIL@example.com)"
+USER_AGENT = "wrric/1.0 (mailto:YOUR_EMAIL@example.com)"
 
 # Cache config
 CACHE_DIR = "crossref_cache"
