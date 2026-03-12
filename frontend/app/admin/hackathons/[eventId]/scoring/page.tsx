@@ -136,7 +136,7 @@ export default function ScoringSchemaPage() {
       {isLocked && (
         <div className="flex items-center gap-2 p-3 rounded-md bg-amber-50 border border-amber-200 text-amber-700 text-sm">
           <Lock className="w-4 h-4 flex-shrink-0" />
-          Schema is locked because judging has started. Use "Override Schema Lock" from the event dashboard to unlock.
+          Schema is locked because judging has started. Use &quot;Override Schema Lock&quot; from the event dashboard to unlock.
         </div>
       )}
 

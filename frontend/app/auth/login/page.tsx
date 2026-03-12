@@ -229,7 +229,7 @@ export default function Page() {
             </button>
 
             <p className="text-center text-sm text-slate-500">
-              Don't have an account?{' '}
+              Don&apos;t have an account?{' '}
               <a href="/auth/register" className="text-blue-600 hover:text-blue-700 font-medium">Register here</a>
             </p>
           </form>

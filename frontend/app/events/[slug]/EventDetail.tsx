@@ -324,13 +324,6 @@ export default function EventDetail({ event }: EventDetailProps) {
               Participants {participants.length > 0 && `(${participants.length})`}
             </button>
 
-            {/* Debug log */}
-            {console.log('[EventDetail] Checking registration status for My Registration tab:', {
-              registrationStatus,
-              registered: registrationStatus?.registered,
-              loading: loadingRegistration
-            })}
-
             {registrationStatus?.registered && (
               <button
                 onClick={() => setActiveTab('my-registration')}

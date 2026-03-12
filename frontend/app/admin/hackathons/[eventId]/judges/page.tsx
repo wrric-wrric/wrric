@@ -214,7 +214,7 @@ export default function JudgesPage() {
               </div>
             )}
             {searchResults.length === 0 && userSearch && !isSearching && (
-              <p className="text-xs text-slate-400 text-center py-2">No users found for "{userSearch}"</p>
+              <p className="text-xs text-slate-400 text-center py-2">No users found for &quot;{userSearch}&quot;</p>
             )}
           </div>
 
