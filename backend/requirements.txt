@@ -72,3 +72,6 @@ python-Levenshtein==0.25.1
 beautifulsoup4==4.12.3
 tldextract==5.3.0
 dateparser==1.2.1
+
+# --- ML/AI ---
+scikit-learn==1.6.1

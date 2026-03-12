@@ -37,6 +37,7 @@ RUN pip install --no-cache-dir gunicorn
 RUN pip install --no-cache-dir pydantic[email]
 RUN pip install --no-cache-dir fuzzywuzzy
 RUN pip install --no-cache-dir python-Levenshtein
+RUN pip install --no-cache-dir scikit-learn
 
 
 
