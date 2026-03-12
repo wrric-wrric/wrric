@@ -15,7 +15,7 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - DATABASE_URL=postgresql+asyncpg://postgres:${POSTGRES_PASSWORD:-change_this_password}@db:5432/wrric
+      - DATABASE_URL=${DATABASE_URL}
       - JWT_SECRET_KEY=${JWT_SECRET_KEY:-change_this_to_a_secure_random_string}
       - FRONTEND_URL=${FRONTEND_URL:-http://localhost:3000}
       - BACKEND_URL=${BACKEND_URL:-http://localhost:8000}
@@ -43,9 +43,3 @@ services:
     depends_on:
       - backend
   
-# Volume for persistent database data
-volumes:
-  postgres_data:
-
-# Network for inter-container communication
-
