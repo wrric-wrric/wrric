@@ -4,24 +4,6 @@
 version: '3.8'
 
 services:
-  # PostgreSQL Database
-  db:
-    image: postgres:15-alpine
-    container_name: wrric-db
-    restart: unless-stopped
-    environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-change_this_password}
-      POSTGRES_DB: wrric
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U postgres"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
-    networks:
-      - wrric-network
 
   # Backend API (FastAPI)
   backend:
@@ -33,7 +15,7 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - DATABASE_URL=postgresql+asyncpg://postgres:${POSTGRES_PASSWORD:-change_this_password}@db:5432/wrric
+      - DATABASE_URL=${DATABASE_URL}
       - JWT_SECRET_KEY=${JWT_SECRET_KEY:-change_this_to_a_secure_random_string}
       - FRONTEND_URL=${FRONTEND_URL:-http://localhost:3000}
       - BACKEND_URL=${BACKEND_URL:-http://localhost:8000}
@@ -44,11 +26,6 @@ services:
     volumes:
       - ./backend/data:/app/data
       - ./backend/logs:/app/logs
-    depends_on:
-      db:
-        condition: service_healthy
-    networks:
-      - wrric-network
 
   # Frontend (Next.js)
   frontend:
@@ -65,14 +42,4 @@ services:
       - NEXT_PUBLIC_WS_URL=${BACKEND_URL:-http://localhost:8000}
     depends_on:
       - backend
-    networks:
-      - wrric-network
-
-# Volume for persistent database data
-volumes:
-  postgres_data:
-
-# Network for inter-container communication
-networks:
-  wrric-network:
-    driver: bridge
+  
