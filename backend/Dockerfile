@@ -38,6 +38,10 @@ RUN pip install --no-cache-dir pydantic[email]
 RUN pip install --no-cache-dir fuzzywuzzy
 RUN pip install --no-cache-dir python-Levenshtein
 RUN pip install --no-cache-dir scikit-learn
+RUN pip install --no-cache-dir scipy
+RUN pip install --no-cache-dir numpy
+RUN pip install --no-cache-dir sentence-transformers
+RUN pip install --no-cache-dir groq
 
 
 
