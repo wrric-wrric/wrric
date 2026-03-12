@@ -43,6 +43,7 @@ RUN pip install --no-cache-dir numpy
 RUN pip install --no-cache-dir sentence-transformers
 RUN pip install --no-cache-dir groq
 RUN pip install --no-cache-dir duckduckgo-search
+RUN pip install --no-cache-dir google-generativeai
 
 
 

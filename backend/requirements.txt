@@ -82,3 +82,6 @@ groq==0.11.0
 
 # --- Web Scraping ---
 duckduckgo-search==7.3.0
+
+# --- Google AI ---
+google-generativeai==0.8.3
