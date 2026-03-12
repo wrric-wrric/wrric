@@ -31,7 +31,7 @@ function BannerClientWrapper() {
   }, []);
 
   // Hide banner on admin and event pages
-  if (pathname?.startsWith('/admin') || pathname?.startsWith('/events') || pathname?.startsWith('/labs')) {
+  if (pathname?.startsWith('/admin') || pathname?.startsWith('/events')) {
     console.log('[GlobalBanner] Banner hidden on path:', pathname);
     return null;
   }

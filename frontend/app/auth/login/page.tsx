@@ -70,11 +70,15 @@ export default function Page() {
         }));
         toast.success("Signed in successfully!");
         window.location.href = `/auth/login-processing?access_token=${response.access_token}&user_id=${response.user_id}`;
+        // Note: we do NOT setLoading(false) here because we want to keep the button disabled during redirect
       } else {
         setErrorMsg(response.detail || "Invalid credentials. Please try again.");
+        setLoading(false);
       }
-    } catch { setErrorMsg("Connection failed. Please check your network."); }
-    finally { setLoading(false); }
+    } catch { 
+      setErrorMsg("Connection failed. Please check your network.");
+      setLoading(false);
+    }
   };
 
   if (!mounted) return null;
