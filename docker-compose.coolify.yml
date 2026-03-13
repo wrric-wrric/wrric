@@ -23,8 +23,9 @@ services:
       - BACKEND_URL=${BACKEND_URL:-http://localhost:8000}
       - LOG_LEVEL=WARNING
       - PYTHONPATH=/app
-    env_file:
-      - ./backend/.env
+    # NOTE: Removed env_file as it may override DATABASE_URL from Coolify
+    # env_file:
+    #   - ./backend/.env
     volumes:
       - ./backend/data:/app/data
       - ./backend/logs:/app/logs
