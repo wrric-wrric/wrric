@@ -6,7 +6,9 @@ const base = process.env.NEXT_PUBLIC_BACKEND_URL || "http://192.168.246.236:8000
 const loginUrl = `${base}/api/login`;
 
 export async function POST(req: NextRequest) {
-  console.log("entered login route");
+  const base = process.env.NEXT_PUBLIC_BACKEND_URL || "http://backend:8000";
+  const loginUrl = `${base}/api/login`;
+  console.log("Backend URL:", loginUrl);
 
   try {
     const { username, email, password, recaptchaResponse } = await req.json();
@@ -87,8 +89,9 @@ export async function POST(req: NextRequest) {
     return NextResponse.json(json, { status: response.status });
   } catch (error) {
     console.log("error: ", error);
+    const errMsg = error instanceof Error ? error.message : String(error);
     return NextResponse.json(
-      { detail: "Internal server error" },
+      { detail: "Internal server error: " + errMsg },
       { status: 500 },
     );
   }
