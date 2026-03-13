@@ -4,7 +4,7 @@
 import logging
 import asyncio
 import httpx
-from googlesearch import search
+from duckduckgo_search import DDGS
 from bs4 import BeautifulSoup
 import os
 import re
@@ -56,7 +56,8 @@ async def search_with_meta_async(query: str, max_results: int, fetch_metadata: b
     """Perform Google search and optionally enrich URLs with title and snippet."""
     logger.info(f"Searching Google for: {query} (max_results={max_results})")
     try:
-        urls = list(search(query, num_results=max_results, lang="en"))
+        ddgs = DDGS()
+        urls = [r['href'] for r in ddgs.text(query, max_results=max_results)]
     except Exception as e:
         logger.error(f"Google search failed: {e}")
         return []
@@ -185,12 +186,13 @@ def jina_search(query, output_format="description_url"):
             raise ValueError("Invalid output_format. Choose 'urls', 'description_url', or 'paragraph'.")
     
     except Exception as e:
-        logger.warning(f"Jina Reader search failed: {e}, falling back to Google search")
+        logger.warning(f"Jina Reader search failed: {e}, falling back to DuckDuckGo search")
         try:
-            urls = list(search(query, num_results=15, lang="en"))
+            ddgs = DDGS()
+            urls = [r['href'] for r in ddgs.text(query, max_results=15)]
             return {'all_urls': urls} if output_format == "urls" else {'results': [{'title': '', 'description': '', 'url': url} for url in urls[:15]]}
         except Exception as fallback_e:
-            logger.error(f"Google fallback failed: {fallback_e}")
+            logger.error(f"DuckDuckGo fallback failed: {fallback_e}")
             return {'results': []}
 
 
