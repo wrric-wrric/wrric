@@ -22,7 +22,7 @@ from utils.embeddings import generate_funder_embeddings
 from services.favicon_service import _enrich_with_favicons_parallel
 
 
-load_dotenv(override=True)
+load_dotenv(override=False)
 
 logger = logging.getLogger(__name__)
 
