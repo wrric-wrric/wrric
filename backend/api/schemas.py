@@ -101,14 +101,14 @@ class ProfileResponse(BaseModel):
     type: str
     title: Optional[str] = None
     organization: Optional[str] = None
-    bio: str = ""
+    bio: Optional[str] = None
     
     # Structured fields
-    location: Dict[str, Any] = {}
-    social_links: Dict[str, Any] = {}
-    expertise: List[str] = []
+    location: Optional[Dict[str, Any]] = None
+    social_links: Optional[Dict[str, Any]] = None
+    expertise: Optional[List[str]] = None
     profile_image: Optional[str] = None
-    metadata_: Dict[str, Any] = {}
+    metadata_: Optional[Dict[str, Any]] = None
     
     # Timestamps
     created_at: datetime
