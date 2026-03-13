@@ -23,13 +23,19 @@ db_url = os.getenv("DATABASE_URL", "")
 if db_url:
     # Convert postgresql:// to postgresql+asyncpg:// and sslmode to ssl
     db_url = db_url.strip("'\"")
-    if db_url.startswith("postgresql://"):
+    print(f"[DEBUG] Raw DATABASE_URL: {db_url}")
+    if db_url.startswith("postgres://"):
+        db_url = db_url.replace("postgres://", "postgresql+asyncpg://", 1)
+    elif db_url.startswith("postgresql://"):
         db_url = db_url.replace("postgresql://", "postgresql+asyncpg://", 1)
     db_url = db_url.replace("sslmode=", "ssl=")
     # Remove channel_binding parameter (not supported by asyncpg)
     import re
     db_url = re.sub(r'[&?]channel_binding=[^&]*', '', db_url)
+    print(f"[DEBUG] Converted DATABASE_URL: {db_url}")
     config.set_main_option("sqlalchemy.url", db_url)
+else:
+    print("[DEBUG] DATABASE_URL environment variable is not set!")
 
 if config.config_file_name is not None:
     fileConfig(config.config_file_name)
@@ -37,8 +43,10 @@ if config.config_file_name is not None:
 target_metadata = Base.metadata
 
 async def run_migrations_online() -> None:
+    url = config.get_main_option("sqlalchemy.url")
+    print(f"[DEBUG] SQLAlchemy URL being used: {url}")
     connectable = create_async_engine(
-        config.get_main_option("sqlalchemy.url"),
+        url,
         poolclass=pool.NullPool,
     )
     async with connectable.connect() as connection:
