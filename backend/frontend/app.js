@@ -1,4 +1,4 @@
-const API = 'http://localhost:8000';
+const API = 'https://back.wrric.nyawasco.co.ke';
 let token = localStorage.getItem('access_token');
 let currentUser = null;
 let currentProfile = null;
@@ -441,7 +441,7 @@ async function sendMessage() {
 function initWebSocket(otherProfileId) {
     if (wsConnection) wsConnection.close();
     try {
-        wsConnection = new WebSocket(`ws://localhost:8000/ws/messages?token=${token}&profile_id=${currentProfile.id}`);
+        wsConnection = new WebSocket(`wss://back.wrric.nyawasco.co.ke/ws/messages?token=${token}&profile_id=${currentProfile.id}`);
         wsConnection.onmessage = (event) => {
             const data = JSON.parse(event.data);
             if (data.sender_profile_id === otherProfileId || data.receiver_profile_id === otherProfileId) {
