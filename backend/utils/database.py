@@ -32,8 +32,17 @@ if not DATABASE_URL:
     raise RuntimeError("DATABASE_URL environment variable is required but not set")
 
 # Create async engine for PostgreSQL
+# Handle both postgresql:// and postgres:// formats
+db_url = DATABASE_URL
+if db_url.startswith('postgres://'):
+    db_url = 'postgresql+asyncpg://' + db_url[9:]
+elif db_url.startswith('postgresql://'):
+    db_url = 'postgresql+asyncpg://' + db_url[12:]
+elif db_url.startswith('postgresql:'):
+    db_url = re.sub(r'^postgresql:', 'postgresql+asyncpg:', db_url)
+
 engine = create_async_engine(
-    re.sub(r'^postgresql:', 'postgresql+asyncpg:', DATABASE_URL),
+    db_url,
     echo=False,
     pool_size=20,
     pool_recycle=300,
