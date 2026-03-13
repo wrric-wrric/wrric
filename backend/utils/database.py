@@ -31,15 +31,30 @@ DATABASE_URL = os.getenv('DATABASE_URL')
 if not DATABASE_URL:
     raise RuntimeError("DATABASE_URL environment variable is required but not set")
 
+# Log the URL being used (masked for security)
+import logging
+logger = logging.getLogger(__name__)
+if 'localhost' in DATABASE_URL or '127.0.0.1' in DATABASE_URL:
+    logger.warning(f"WARNING: DATABASE_URL contains localhost/127.0.0.1 - this may not work in Docker! URL: {DATABASE_URL[:20]}...")
+else:
+    logger.info(f"DATABASE_URL host: {DATABASE_URL.split('@')[1].split(':')[0] if '@' in DATABASE_URL else 'unknown'}")
+
 # Create async engine for PostgreSQL
 # Handle both postgresql:// and postgres:// formats
 db_url = DATABASE_URL
+
+# Log raw URL for debugging
+logger.warning(f"RAW DATABASE_URL: {db_url}")
+
 if db_url.startswith('postgres://'):
     db_url = 'postgresql+asyncpg://' + db_url[9:]
+    logger.warning(f"Converted to asyncpg: {db_url[:50]}...")
 elif db_url.startswith('postgresql://'):
     db_url = 'postgresql+asyncpg://' + db_url[12:]
 elif db_url.startswith('postgresql:'):
     db_url = re.sub(r'^postgresql:', 'postgresql+asyncpg:', db_url)
+
+logger.warning(f"FINAL connection URL host: {db_url.split('@')[1].split(':')[0] if '@' in db_url else 'PARSE ERROR'}")
 
 engine = create_async_engine(
     db_url,
