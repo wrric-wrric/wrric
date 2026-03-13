@@ -47,10 +47,11 @@ db_url = DATABASE_URL
 logger.warning(f"RAW DATABASE_URL: {db_url}")
 
 if db_url.startswith('postgres://'):
-    db_url = 'postgresql+asyncpg://' + db_url[9:]
+    # Remove 'postgres://' and prepend 'postgresql+asyncpg://'
+    db_url = 'postgresql+asyncpg://' + db_url[11:]  # postgres:// is 11 chars
     logger.warning(f"Converted to asyncpg: {db_url[:50]}...")
 elif db_url.startswith('postgresql://'):
-    db_url = 'postgresql+asyncpg://' + db_url[12:]
+    db_url = 'postgresql+asyncpg://' + db_url[13:]  # postgresql:// is 13 chars
 elif db_url.startswith('postgresql:'):
     db_url = re.sub(r'^postgresql:', 'postgresql+asyncpg:', db_url)
 
