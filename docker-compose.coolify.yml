@@ -15,14 +15,29 @@ services:
     ports:
       - "8000"
     environment:
-      # Use external database URL from Coolify environment variable
-      # Format: postgresql+asyncpg://user:password@host:port/dbname
+      # Database - uses external PostgreSQL from Coolify
       - DATABASE_URL=${DATABASE_URL}
+      # Auth
       - JWT_SECRET_KEY=${JWT_SECRET_KEY:-change_this_to_a_secure_random_string}
+      # URLs
       - FRONTEND_URL=${FRONTEND_URL:-http://localhost:3000}
       - BACKEND_URL=${BACKEND_URL:-http://localhost:8000}
-      - LOG_LEVEL=WARNING
+      # Logging
+      - LOG_LEVEL=${LOG_LEVEL:-WARNING}
+      # Python
       - PYTHONPATH=/app
+      # Config from environment
+      - MAX_URLS=${MAX_URLS:-10}
+      - MAX_DEPTH=${MAX_DEPTH:-3}
+      - TIMEOUT_SECONDS=${TIMEOUT_SECONDS:-300}
+      - REQUEST_TIMEOUT=${REQUEST_TIMEOUT:-40}
+      - MAX_WORKERS=${MAX_WORKERS:-3}
+      - GLOBAL_MAX_WORKERS=${GLOBAL_MAX_WORKERS:-10}
+      - DDGS_MAX_RESULTS=${DDGS_MAX_RESULTS:-7}
+      - SEARCH_MAX_RESULTS=${SEARCH_MAX_RESULTS:-5}
+      - MAX_LINKS_PER_PAGE=${MAX_LINKS_PER_PAGE:-5}
+      - ENABLE_OCR=${ENABLE_OCR:-false}
+      - OCR_LANGUAGE=${OCR_LANGUAGE:-eng}
     # NOTE: Removed env_file as it may override DATABASE_URL from Coolify
     # env_file:
     #   - ./backend/.env
